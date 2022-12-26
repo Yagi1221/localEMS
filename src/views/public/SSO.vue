@@ -37,7 +37,6 @@ export default {
         'Accept': 'application/json',
         "Femc-Access-Token" : vm.token
       };
-      debugger;
       SSO({type: 2} , header ).then((response) => {
         if (response.data.Msg == "Success") {
           this.$store.commit('loginSuccess' ,response.data);

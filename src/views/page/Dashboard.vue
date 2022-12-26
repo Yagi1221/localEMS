@@ -349,7 +349,6 @@ export default {
        return c;
     } ,
     ChartSOCData: function () {
-      debugger;
       var data = [
         {
           x: ["CABINET_1","CABINET_2","CABINET_3"],
@@ -431,6 +430,7 @@ export default {
       const vm = this;
       function MessageCallBack(SocketData) {
         var data =  JSON.parse(SocketData);
+        
         vm.socketDataFrequency.push(data);
         vm.socketDataFrequency = vm.socketDataFrequency.slice(-60);
 
