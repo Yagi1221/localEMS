@@ -1,4 +1,4 @@
-import { get, post, del,uploadFile,download,getDownload ,getURLQueryParmater } from '@/api/axiosApi'; // download, uploadFile , uploadAndParamater, postWithHeader
+import { get, post, del,uploadFile,download,getDownload ,getURLQueryParmater, postWithHeader } from '@/api/axiosApi'; // download, uploadFile , uploadAndParamater, postWithHeader
 
 export const getFields = (params) => get('/fields', params);
 export const postFields = (params) => post('/fields', params);
@@ -147,4 +147,4 @@ export const postDashboardAbortStandby=(params) => post('/dashboard/abort_standb
 export const getDashboardAbortStandby=(params) => get('/dashboard/abort_standby',params)//取得中止待命記錄{case_id}
 export const postOperationDispatchingHistory=(params) => post('/operation/dispatching_history',params)//查詢調度記錄
 
-export const SSO=(params) =>post('/permission/user/single_sign_on', params); // 雲地同步登入
+export const SSO=(params,header) =>postWithHeader('/permission/user/login', params , header); // 雲地同步登入
