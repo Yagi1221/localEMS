@@ -166,7 +166,7 @@ export default {
               showline: false,
             },
             yaxis: {
-              range: [0, 100],
+              range: [0, 105],
               zeroline: false,
               showline: false,
             },

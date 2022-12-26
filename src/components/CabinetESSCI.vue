@@ -169,7 +169,7 @@ export default {
               showline: true,
             },
             yaxis: {
-              range: [0, 100],
+              range: [0, 105],
               zeroline: false,
               showline: true,
             },
@@ -223,7 +223,7 @@ export default {
               showline: true,
             },
             yaxis: {
-              range: [0, 100],
+              range: [0, 105],
               zeroline: false,
               showline: true,
             },

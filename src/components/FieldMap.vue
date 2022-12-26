@@ -28,34 +28,34 @@
 
       <!-- 儲能櫃02 -->
       <div class="col-3 row p-2 border cursor-pointer" @click="toCabinetList('CABINET_2')">
-        <div :class="'col-6 border mb-1' + getRackClass('CABINET_2' , 'B1_RACK_1')">R1</div>
-        <div :class="'col-6 border mb-1' + getRackClass('CABINET_2' , 'B1_RACK_2')">R2</div>
-        <div :class="'col-6 border mb-1' + getRackClass('CABINET_2' , 'B1_RACK_3')">R3</div>
-        <div :class="'col-6 border mb-1' + getRackClass('CABINET_2' , 'B1_RACK_4')">R4</div>
-        <div :class="'col-6 border mb-1 d-flex justify-content-center align-items-center' + getRackClass('CABINET_2' , 'air_abnormal')" style="height:3rem">空調</div>
-        <div :class="'col-6 border mb-1 d-flex justify-content-center align-items-center' + getRackClass('CABINET_2' , 'fire_abnormal')" style="height:3rem">消防</div>
-        <div :class="'col-6 border mb-1' + getRackClass('CABINET_2' , 'B1_RACK_5')">R5</div>
-        <div :class="'col-6 border mb-1' + getRackClass('CABINET_2' , 'B1_RACK_6')">R6</div>
-        <div :class="'col-6 border mb-1' + getRackClass('CABINET_2' , 'B1_RACK_7')">R7</div>
-        <div :class="'col-6 border mb-1' + getRackClass('CABINET_2' , 'B1_RACK_8')">R8</div>
-        <div :class="'col-6 border mb-1' + getRackClass('CABINET_2' , 'B1_RACK_9')">R9</div>
-        <div :class="'col-6 border mb-1' + getRackClass('CABINET_2' , 'B1_RACK_10')">R10</div>
+        <div :class="'col-6 border mb-1' + getRackClass('CABINET_2' , 'B2_RACK_1')">R1</div>
+        <div :class="'col-6 border mb-1' + getRackClass('CABINET_2' , 'B2_RACK_2')">R2</div>
+        <div :class="'col-6 border mb-1' + getRackClass('CABINET_2' , 'B2_RACK_3')">R3</div>
+        <div :class="'col-6 border mb-1' + getRackClass('CABINET_2' , 'B2_RACK_4')">R4</div>
+        <div :class="'col-6 border mb-1 d-flex justify-content-center align-items-center' + getClass('CABINET_2' , 'air_abnormal')" style="height:3rem">空調</div>
+        <div :class="'col-6 border mb-1 d-flex justify-content-center align-items-center' + getClass('CABINET_2' , 'fire_abnormal')" style="height:3rem">消防</div>
+        <div :class="'col-6 border mb-1' + getRackClass('CABINET_2' , 'B2_RACK_5')">R5</div>
+        <div :class="'col-6 border mb-1' + getRackClass('CABINET_2' , 'B2_RACK_6')">R6</div>
+        <div :class="'col-6 border mb-1' + getRackClass('CABINET_2' , 'B2_RACK_7')">R7</div>
+        <div :class="'col-6 border mb-1' + getRackClass('CABINET_2' , 'B2_RACK_8')">R8</div>
+        <div :class="'col-6 border mb-1' + getRackClass('CABINET_2' , 'B2_RACK_9')">R9</div>
+        <div :class="'col-6 border mb-1' + getRackClass('CABINET_2' , 'B2_RACK_10')">R10</div>
       </div>
 
       <!-- 儲能櫃03 -->
       <div class="col-3 row p-2 border cursor-pointer" @click="toCabinetList('CABINET_3')">
-        <div :class="'col-6 border mb-1' + getRackClass('CABINET_3' , 'B1_RACK_1')">R1</div>
-        <div :class="'col-6 border mb-1' + getRackClass('CABINET_3' , 'B1_RACK_2')">R2</div>
-        <div :class="'col-6 border mb-1' + getRackClass('CABINET_3' , 'B1_RACK_3')">R3</div>
-        <div :class="'col-6 border mb-1' + getRackClass('CABINET_3' , 'B1_RACK_4')">R4</div>
-        <div :class="'col-6 border mb-1 d-flex justify-content-center align-items-center' + getRackClass('CABINET_3' , 'air_abnormal')" style="height:3rem">空調</div>
-        <div :class="'col-6 border mb-1 d-flex justify-content-center align-items-center' + getRackClass('CABINET_3' , 'fire_abnormal')" style="height:3rem">消防</div>
-        <div :class="'col-6 border mb-1' + getRackClass('CABINET_3' , 'B1_RACK_5')">R5</div>
-        <div :class="'col-6 border mb-1' + getRackClass('CABINET_3' , 'B1_RACK_6')">R6</div>
-        <div :class="'col-6 border mb-1' + getRackClass('CABINET_3' , 'B1_RACK_7')">R7</div>
-        <div :class="'col-6 border mb-1' + getRackClass('CABINET_3' , 'B1_RACK_8')">R8</div>
-        <div :class="'col-6 border mb-1' + getRackClass('CABINET_3' , 'B1_RACK_9')">R9</div>
-        <div :class="'col-6 border mb-1' + getRackClass('CABINET_3' , 'B1_RACK_10')">R10</div>
+        <div :class="'col-6 border mb-1' + getRackClass('CABINET_3' , 'B3_RACK_1')">R1</div>
+        <div :class="'col-6 border mb-1' + getRackClass('CABINET_3' , 'B3_RACK_2')">R2</div>
+        <div :class="'col-6 border mb-1' + getRackClass('CABINET_3' , 'B3_RACK_3')">R3</div>
+        <div :class="'col-6 border mb-1' + getRackClass('CABINET_3' , 'B3_RACK_4')">R4</div>
+        <div :class="'col-6 border mb-1 d-flex justify-content-center align-items-center' + getClass('CABINET_3' , 'air_abnormal')" style="height:3rem">空調</div>
+        <div :class="'col-6 border mb-1 d-flex justify-content-center align-items-center' + getClass('CABINET_3' , 'fire_abnormal')" style="height:3rem">消防</div>
+        <div :class="'col-6 border mb-1' + getRackClass('CABINET_3' , 'B3_RACK_5')">R5</div>
+        <div :class="'col-6 border mb-1' + getRackClass('CABINET_3' , 'B3_RACK_6')">R6</div>
+        <div :class="'col-6 border mb-1' + getRackClass('CABINET_3' , 'B3_RACK_7')">R7</div>
+        <div :class="'col-6 border mb-1' + getRackClass('CABINET_3' , 'B3_RACK_8')">R8</div>
+        <div :class="'col-6 border mb-1' + getRackClass('CABINET_3' , 'B3_RACK_9')">R9</div>
+        <div :class="'col-6 border mb-1' + getRackClass('CABINET_3' , 'B3_RACK_10')">R10</div>
       </div>
     </div>
   </div>

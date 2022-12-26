@@ -191,7 +191,7 @@ export default {
           y: 1.2,
         },
         yaxis: {
-          range: [0, 100],
+          range: [0, 105],
         },
         shapes: [
           {
@@ -218,7 +218,7 @@ export default {
             y: 1.2,
           },
           yaxis: {
-            range: [0, 100],
+            range: [0, 105],
           },
           shapes: [
             {
@@ -336,7 +336,20 @@ export default {
 
       return data;
     },
+    CABINET_1: function (){
+       var c = this.SocketDataPCS.find(x=> {return x.parent_id == "CABINET_1"});
+       return c;
+    } ,
+    CABINET_2: function (){
+       var c = this.SocketDataPCS.find(x=> {return x.parent_id == "CABINET_2"});
+       return c;
+    } ,
+    CABINET_3: function (){
+       var c = this.SocketDataPCS.find(x=> {return x.parent_id == "CABINET_3"});
+       return c;
+    } ,
     ChartSOCData: function () {
+      debugger;
       var data = [
         {
           x: ["CABINET_1","CABINET_2","CABINET_3"],
@@ -386,14 +399,14 @@ export default {
         if (vm.Drawed.SOC) {
           Plotly.react( "ChartSOC", vm.ChartSOCData, vm.LayOutSOC, vm.plotlyConfig );
         } else {
-          vm.Drawed = true;
+          vm.Drawed.SOC = true;
           Plotly.newPlot( "ChartSOC", vm.ChartSOCData, vm.LayOutSOC, vm.plotlyConfig );
         }
 
         if (vm.Drawed.SOH) {
           Plotly.react( "ChartSOH", vm.ChartSOHData, vm.LayOutSOH, vm.plotlyConfig );
         } else {
-          vm.Drawed = true;
+          vm.Drawed.SOH = true;
           Plotly.newPlot( "ChartSOH", vm.ChartSOHData, vm.LayOutSOH, vm.plotlyConfig );
         }
 
@@ -424,7 +437,7 @@ export default {
         if (vm.Drawed.Freq) {
           Plotly.react( "ChartFreq", vm.ChartFreqData, vm.LayOutFreq, vm.plotlyConfig );
         } else {
-          vm.Drawed = true;
+          vm.Drawed.Freq = true;
           Plotly.newPlot( "ChartFreq", vm.ChartFreqData, vm.LayOutFreq, vm.plotlyConfig );
         }
       }
