@@ -80,7 +80,7 @@ export function post (url, data) {
 }
 
 export function postWithHeader (url, data, headers) {
-  return backendAPI.post(url, data , headers);
+  return backendAPI.post(url, data , {headers : headers});
 }
 
 export function put (url, data) {

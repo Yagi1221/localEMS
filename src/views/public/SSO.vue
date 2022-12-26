@@ -21,6 +21,7 @@ import { SSO } from '@/api/Api.js'
 export default {
   data() {
     return {
+      token : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjYyYWUzNDQ1MWY0ZDAwMDA3NzAwNjI2ZCIsIm5hbWUiOiJXaWxzb24iLCJjb21wYW55IjpudWxsLCJleHBfZGF0ZSI6MTY3MjAzNzQ1OS4wNjgzNjh9.Ha1RZ9BG_7GOizv07VQAaIJLmsBnUdIUR5fK7IQn5tc"
     };
   },
   created() {
@@ -34,13 +35,12 @@ export default {
       var header = {
         'Content-Type': 'application/json; charset=utf-8',
         'Accept': 'application/json',
-        "Femc-Access-Token" : event.data
+        "Femc-Access-Token" : vm.token
       };
+      debugger;
       SSO({type: 2} , header ).then((response) => {
-        if (response.data.success) {
-          var userInfo = {};
-          userInfo.token = event.data;
-          this.$store.commit('userInfo' ,userInfo);
+        if (response.data.Msg == "Success") {
+          this.$store.commit('loginSuccess' ,response.data);
           this.$router.push({ name: "Dashboard" });
         } else {
           vm.$message({ type:'error' , message:"登入失敗" });
