@@ -1,0 +1,933 @@
+[
+    {
+        "Name": "darkgreen",
+        "Hash": "#007318",
+        "Color": "#007318",
+        "ARGB": "ff007318",
+        "RGB": "rgb(0,115,24)"
+    },
+    {
+        "Name": "red",
+        "Hash": "#ff0000",
+        "Color": "#ff0000",
+        "ARGB": "ffff0000",
+        "RGB": "rgb(255,0,0)"
+      },
+      {
+        "Name": "pink",
+        "Hash": "#ffc0cb",
+        "Color": "#ffc0cb",
+        "ARGB": "ffffc0cb",
+        "RGB": "rgb(255,192,203)"
+      },
+      {
+        "Name": "lightseagreen",
+        "Hash": "#20b2aa",
+        "Color": "#20b2aa",
+        "ARGB": "ff20b2aa",
+        "RGB": "rgb(32,178,170)"
+      },
+      {
+        "Name": "darkgoldenrod",
+        "Hash": "#b8860b",
+        "Color": "#b8860b",
+        "ARGB": "ffb8860b",
+        "RGB": "rgb(184,134,11)"
+      },
+      {
+        "Name": "midnightblue",
+        "Hash": "#191970",
+        "Color": "#191970",
+        "ARGB": "ff191970",
+        "RGB": "rgb(25,25,112)"
+      },
+      {
+        "Name": "skyblue",
+        "Hash": "#87ceeb",
+        "Color": "#87ceeb",
+        "ARGB": "ff87ceeb",
+        "RGB": "rgb(135,206,235)"
+      },
+      {
+        "Name": "springgreen",
+        "Hash": "#00ff7f",
+        "Color": "#00ff7f",
+        "ARGB": "ff00ff7f",
+        "RGB": "rgb(0,255,127)"
+      },
+      {
+        "Name": "hotpink",
+        "Hash": "#ff69b4",
+        "Color": "#ff69b4",
+        "ARGB": "ffff69b4",
+        "RGB": "rgb(255,105,180)"
+      },
+      {
+        "Name": "slateblue",
+        "Hash": "#6a5acd",
+        "Color": "#6a5acd",
+        "ARGB": "ff6a5acd",
+        "RGB": "rgb(106,90,205)"
+      },
+      {
+        "Name": "gray",
+        "Hash": "#808080",
+        "Color": "#808080",
+        "ARGB": "ff808080",
+        "RGB": "rgb(128,128,128)"
+      },
+      {
+        "Name": "lime",
+        "Hash": "#00FF00",
+        "Color": "#00ff00",
+        "ARGB": "ff00ff00",
+        "RGB": "rgb(0,255,0)"
+      },
+      {
+        "Name": "mediumblue",
+        "Hash": "#0000cd",
+        "Color": "#0000cd",
+        "ARGB": "ff0000cd",
+        "RGB": "rgb(0,0,205)"
+      },
+      {
+        "Name": "mediumpurple",
+        "Hash": "#9370db",
+        "Color": "#9370db",
+        "ARGB": "ff9370db",
+        "RGB": "rgb(147,112,219)"
+      },
+      {
+        "Name": "salmon",
+        "Hash": "#fa8072",
+        "Color": "#fa8072",
+        "ARGB": "fffa8072",
+        "RGB": "rgb(250,128,114)"
+      },
+      {
+        "Name": "olive",
+        "Hash": "#808000",
+        "Color": "#808000",
+        "ARGB": "ff808000",
+        "RGB": "rgb(128,128,0)"
+      },
+      {
+        "Name": "turquoise",
+        "Hash": "#40e0d0",
+        "Color": "#40e0d0",
+        "ARGB": "ff40e0d0",
+        "RGB": "rgb(64,224,208)"
+      },
+      {
+        "Name": "coral",
+        "Hash": "#ff7f50",
+        "Color": "#ff7f50",
+        "ARGB": "ffff7f50",
+        "RGB": "rgb(255,127,80)"
+      },
+      {
+        "Name": "indigo",
+        "Hash": "#4b0082",
+        "Color": "#4b0082",
+        "ARGB": "ff4b0082",
+        "RGB": "rgb(75,0,130)"
+      },
+      {
+        "Name": "darkorange",
+        "Hash": "#ff8c00",
+        "Color": "#ff8c00",
+        "ARGB": "ffff8c00",
+        "RGB": "rgb(255,140,0)"
+      },
+      {
+        "Name": "powderblue",
+        "Hash": "#b0e0e6",
+        "Color": "#b0e0e6",
+        "ARGB": "ffb0e0e6",
+        "RGB": "rgb(176,224,230)"
+      },
+      {
+        "Name": "plum",
+        "Hash": "#dda0dd",
+        "Color": "#dda0dd",
+        "ARGB": "ffdda0dd",
+        "RGB": "rgb(221,160,221)"
+      },
+      {
+        "Name": "darksalmon",
+        "Hash": "#e9967a",
+        "Color": "#e9967a",
+        "ARGB": "ffe9967a",
+        "RGB": "rgb(233,150,122)"
+      },
+      {
+        "Name": "lightgreen",
+        "Hash": "#90ee90",
+        "Color": "#90ee90",
+        "ARGB": "ff90ee90",
+        "RGB": "rgb(144,238,144)"
+      },
+      {
+        "Name": "blue",
+        "Hash": "#0000FF",
+        "Color": "#0000ff",
+        "ARGB": "ff0000ff",
+        "RGB": "rgb(0,0,255)"
+      },
+      {
+        "Name": "orange",
+        "Hash": "#ffa500",
+        "Color": "#ffa500",
+        "ARGB": "ffffa500",
+        "RGB": "rgb(255,165,0)"
+      },
+      {
+        "Name": "wheat",
+        "Hash": "#f5deb3",
+        "Color": "#f5deb3",
+        "ARGB": "fff5deb3",
+        "RGB": "rgb(245,222,179)"
+      },
+      {
+        "Name": "darkorchid",
+        "Hash": "#9932cc",
+        "Color": "#9932cc",
+        "ARGB": "ff9932cc",
+        "RGB": "rgb(153,50,204)"
+      },
+      {
+        "Name": "blanchedalmond",
+        "Hash": "#ffebcd",
+        "Color": "#ffebcd",
+        "ARGB": "ffffebcd",
+        "RGB": "rgb(255,235,205)"
+      },
+      {
+        "Name": "magenta",
+        "Hash": "#ff00ff",
+        "Color": "#ff00ff",
+        "ARGB": "ffff00ff",
+        "RGB": "rgb(255,0,255)"
+      },
+      {
+        "Name": "red",
+        "Hash": "#FF0000",
+        "Color": "#ff0000",
+        "ARGB": "ffff0000",
+        "RGB": "rgb(255,0,0)"
+      },
+      {
+        "Name": "paleturquoise",
+        "Hash": "#afeeee",
+        "Color": "#afeeee",
+        "ARGB": "ffafeeee",
+        "RGB": "rgb(175,238,238)"
+      },
+      {
+        "Name": "seashell",
+        "Hash": "#fff5ee",
+        "Color": "#fff5ee",
+        "ARGB": "fffff5ee",
+        "RGB": "rgb(255,245,238)"
+      },
+      {
+        "Name": "dodgerblue",
+        "Hash": "#1e90ff",
+        "Color": "#1e90ff",
+        "ARGB": "ff1e90ff",
+        "RGB": "rgb(30,144,255)"
+      },
+      {
+        "Name": "khaki",
+        "Hash": "#f0e68c",
+        "Color": "#f0e68c",
+        "ARGB": "fff0e68c",
+        "RGB": "rgb(240,230,140)"
+      },
+      {
+        "Name": "indianred",
+        "Hash": "#cd5c5c",
+        "Color": "#cd5c5c",
+        "ARGB": "ffcd5c5c",
+        "RGB": "rgb(205,92,92)"
+      },
+      {
+        "Name": "darkslateblue",
+        "Hash": "#483d8b",
+        "Color": "#483d8b",
+        "ARGB": "ff483d8b",
+        "RGB": "rgb(72,61,139)"
+      },
+      {
+        "Name": "forestgreen",
+        "Hash": "#228b22",
+        "Color": "#228b22",
+        "ARGB": "ff228b22",
+        "RGB": "rgb(34,139,34)"
+      },
+      {
+        "Name": "mediumseagreen",
+        "Hash": "#3cb371",
+        "Color": "#3cb371",
+        "ARGB": "ff3cb371",
+        "RGB": "rgb(60,179,113)"
+      },
+      {
+        "Name": "linen",
+        "Hash": "#faf0e6",
+        "Color": "#faf0e6",
+        "ARGB": "fffaf0e6",
+        "RGB": "rgb(250,240,230)"
+      },
+      {
+        "Name": "goldenrod",
+        "Hash": "#daa520",
+        "Color": "#daa520",
+        "ARGB": "ffdaa520",
+        "RGB": "rgb(218,165,32)"
+      },
+      {
+        "Name": "chocolate",
+        "Hash": "#d2691e",
+        "Color": "#d2691e",
+        "ARGB": "ffd2691e",
+        "RGB": "rgb(210,105,30)"
+      },
+      {
+        "Name": "black",
+        "Hash": "#000000",
+        "Color": "#000000",
+        "ARGB": "ff000000",
+        "RGB": "rgb(0,0,0)"
+      },
+      {
+        "Name": "papayawhip",
+        "Hash": "#ffefd5",
+        "Color": "#ffefd5",
+        "ARGB": "ffffefd5",
+        "RGB": "rgb(255,239,213)"
+      },
+      {
+        "Name": "mediumvioletred",
+        "Hash": "#c71585",
+        "Color": "#c71585",
+        "ARGB": "ffc71585",
+        "RGB": "rgb(199,21,133)"
+      },
+      {
+        "Name": "darkslategray",
+        "Hash": "#2f4f4f",
+        "Color": "#2f4f4f",
+        "ARGB": "ff2f4f4f",
+        "RGB": "rgb(47,79,79)"
+      },
+      {
+        "Name": "crimson",
+        "Hash": "#dc143c",
+        "Color": "#dc143c",
+        "ARGB": "ffdc143c",
+        "RGB": "rgb(220,20,60)"
+      },
+      {
+        "Name": "lightblue",
+        "Hash": "#add8e6",
+        "Color": "#add8e6",
+        "ARGB": "ffadd8e6",
+        "RGB": "rgb(173,216,230)"
+      },
+      {
+        "Name": "aquamarine",
+        "Hash": "#7fffd4",
+        "Color": "#7fffd4",
+        "ARGB": "ff7fffd4",
+        "RGB": "rgb(127,255,212)"
+      },
+      {
+        "Name": "lightsteelblue",
+        "Hash": "#b0c4de",
+        "Color": "#b0c4de",
+        "ARGB": "ffb0c4de",
+        "RGB": "rgb(176,196,222)"
+      },
+      {
+        "Name": "chartreuse",
+        "Hash": "#7fff00",
+        "Color": "#7fff00",
+        "ARGB": "ff7fff00",
+        "RGB": "rgb(127,255,0)"
+      },
+      {
+        "Name": "cornsilk",
+        "Hash": "#fff8dc",
+        "Color": "#fff8dc",
+        "ARGB": "fffff8dc",
+        "RGB": "rgb(255,248,220)"
+      },
+      {
+        "Name": "lavenderblush",
+        "Hash": "#fff0f5",
+        "Color": "#fff0f5",
+        "ARGB": "fffff0f5",
+        "RGB": "rgb(255,240,245)"
+      },
+      {
+        "Name": "cyan",
+        "Hash": "#00ffff",
+        "Color": "#00ffff",
+        "ARGB": "ff00ffff",
+        "RGB": "rgb(0,255,255)"
+      },
+      {
+        "Name": "slategray",
+        "Hash": "#708090",
+        "Color": "#708090",
+        "ARGB": "ff708090",
+        "RGB": "rgb(112,128,144)"
+      },
+      {
+        "Name": "moccasin",
+        "Hash": "#ffe4b5",
+        "Color": "#ffe4b5",
+        "ARGB": "ffffe4b5",
+        "RGB": "rgb(255,228,181)"
+      },
+      {
+        "Name": "lightgrey",
+        "Hash": "#d3d3d3",
+        "Color": "#d3d3d3",
+        "ARGB": "ffd3d3d3",
+        "RGB": "rgb(211,211,211)"
+      },
+      {
+        "Name": "tan",
+        "Hash": "#d2b48c",
+        "Color": "#d2b48c",
+        "ARGB": "ffd2b48c",
+        "RGB": "rgb(210,180,140)"
+      },
+      {
+        "Name": "tomato",
+        "Hash": "#ff6347",
+        "Color": "#ff6347",
+        "ARGB": "ffff6347",
+        "RGB": "rgb(255,99,71)"
+      },
+      {
+        "Name": "violet",
+        "Hash": "#ee82ee",
+        "Color": "#ee82ee",
+        "ARGB": "ffee82ee",
+        "RGB": "rgb(238,130,238)"
+      },
+      {
+        "Name": "lightpink",
+        "Hash": "#ffb6c1",
+        "Color": "#ffb6c1",
+        "ARGB": "ffffb6c1",
+        "RGB": "rgb(255,182,193)"
+      },
+      {
+        "Name": "lightcyan",
+        "Hash": "#e0ffff",
+        "Color": "#e0ffff",
+        "ARGB": "ffe0ffff",
+        "RGB": "rgb(224,255,255)"
+      },
+      {
+        "Name": "thistle",
+        "Hash": "#d8bfd8",
+        "Color": "#d8bfd8",
+        "ARGB": "ffd8bfd8",
+        "RGB": "rgb(216,191,216)"
+      },
+      {
+        "Name": "cadetblue",
+        "Hash": "#5f9ea0",
+        "Color": "#5f9ea0",
+        "ARGB": "ff5f9ea0",
+        "RGB": "rgb(95,158,160)"
+      },
+      {
+        "Name": "floralwhite",
+        "Hash": "#fffaf0",
+        "Color": "#fffaf0",
+        "ARGB": "fffffaf0",
+        "RGB": "rgb(255,250,240)"
+      },
+      {
+        "Name": "orangered",
+        "Hash": "#ff4500",
+        "Color": "#ff4500",
+        "ARGB": "ffff4500",
+        "RGB": "rgb(255,69,0)"
+      },
+      {
+        "Name": "mediumorchid",
+        "Hash": "#ba55d3",
+        "Color": "#ba55d3",
+        "ARGB": "ffba55d3",
+        "RGB": "rgb(186,85,211)"
+      },
+      {
+        "Name": "steelblue",
+        "Hash": "#4682b4",
+        "Color": "#4682b4",
+        "ARGB": "ff4682b4",
+        "RGB": "rgb(70,130,180)"
+      },
+      {
+        "Name": "orchid",
+        "Hash": "#da70d6",
+        "Color": "#da70d6",
+        "ARGB": "ffda70d6",
+        "RGB": "rgb(218,112,214)"
+      },
+      {
+        "Name": "burlywood",
+        "Hash": "#deb887",
+        "Color": "#deb887",
+        "ARGB": "ffdeb887",
+        "RGB": "rgb(222,184,135)"
+      },
+      {
+        "Name": "mistyrose",
+        "Hash": "#ffe4e1",
+        "Color": "#ffe4e1",
+        "ARGB": "ffffe4e1",
+        "RGB": "rgb(255,228,225)"
+      },
+      {
+        "Name": "darkred",
+        "Hash": "#8b0000",
+        "Color": "#8b0000",
+        "ARGB": "ff8b0000",
+        "RGB": "rgb(139,0,0)"
+      },
+      {
+        "Name": "teal",
+        "Hash": "#008080",
+        "Color": "#008080",
+        "ARGB": "ff008080",
+        "RGB": "rgb(0,128,128)"
+      },
+      {
+        "Name": "darkcyan",
+        "Hash": "#008b8b",
+        "Color": "#008b8b",
+        "ARGB": "ff008b8b",
+        "RGB": "rgb(0,139,139)"
+      },
+      {
+        "Name": "fuchsia",
+        "Hash": "#ff00ff",
+        "Color": "#ff00ff",
+        "ARGB": "ffff00ff",
+        "RGB": "rgb(255,0,255)"
+      },
+      {
+        "Name": "beige",
+        "Hash": "#f5f5dc",
+        "Color": "#f5f5dc",
+        "ARGB": "fff5f5dc",
+        "RGB": "rgb(245,245,220)"
+      },
+      {
+        "Name": "brown",
+        "Hash": "#a52a2a",
+        "Color": "#a52a2a",
+        "ARGB": "ffa52a2a",
+        "RGB": "rgb(165,42,42)"
+      },
+      {
+        "Name": "mediumaquamarine",
+        "Hash": "#66cdaa",
+        "Color": "#66cdaa",
+        "ARGB": "ff66cdaa",
+        "RGB": "rgb(102,205,170)"
+      },
+      {
+        "Name": "sandybrown",
+        "Hash": "#f4a460",
+        "Color": "#f4a460",
+        "ARGB": "fff4a460",
+        "RGB": "rgb(244,164,96)"
+      },
+      {
+        "Name": "navy",
+        "Hash": "#000080",
+        "Color": "#000080",
+        "ARGB": "ff000080",
+        "RGB": "rgb(0,0,128)"
+      },
+      {
+        "Name": "lavender",
+        "Hash": "#e6e6fa",
+        "Color": "#e6e6fa",
+        "ARGB": "ffe6e6fa",
+        "RGB": "rgb(230,230,250)"
+      },
+      {
+        "Name": "mediumturquoise",
+        "Hash": "#48d1cc",
+        "Color": "#48d1cc",
+        "ARGB": "ff48d1cc",
+        "RGB": "rgb(72,209,204)"
+      },
+      {
+        "Name": "yellowgreen",
+        "Hash": "#9acd32",
+        "Color": "#9acd32",
+        "ARGB": "ff9acd32",
+        "RGB": "rgb(154,205,50)"
+      },
+      {
+        "Name": "saddlebrown",
+        "Hash": "#8b4513",
+        "Color": "#8b4513",
+        "ARGB": "ff8b4513",
+        "RGB": "rgb(139,69,19)"
+      },
+      {
+        "Name": "lawngreen",
+        "Hash": "#7cfc00",
+        "Color": "#7cfc00",
+        "ARGB": "ff7cfc00",
+        "RGB": "rgb(124,252,0)"
+      },
+      {
+        "Name": "lemonchiffon",
+        "Hash": "#fffacd",
+        "Color": "#fffacd",
+        "ARGB": "fffffacd",
+        "RGB": "rgb(255,250,205)"
+      },
+      {
+        "Name": "rosybrown",
+        "Hash": "#bc8f8f",
+        "Color": "#bc8f8f",
+        "ARGB": "ffbc8f8f",
+        "RGB": "rgb(188,143,143)"
+      },
+      {
+        "Name": "navajowhite",
+        "Hash": "#ffdead",
+        "Color": "#ffdead",
+        "ARGB": "ffffdead",
+        "RGB": "rgb(255,222,173)"
+      },
+      {
+        "Name": "limegreen",
+        "Hash": "#32cd32",
+        "Color": "#32cd32",
+        "ARGB": "ff32cd32",
+        "RGB": "rgb(50,205,50)"
+      },
+      {
+        "Name": "royalblue",
+        "Hash": "#4169e1",
+        "Color": "#4169e1",
+        "ARGB": "ff4169e1",
+        "RGB": "rgb(65,105,225)"
+      },
+      {
+        "Name": "purple",
+        "Hash": "#800080",
+        "Color": "#800080",
+        "ARGB": "ff800080",
+        "RGB": "rgb(128,0,128)"
+      },
+      {
+        "Name": "darkgray",
+        "Hash": "#a9a9a9",
+        "Color": "#a9a9a9",
+        "ARGB": "ffa9a9a9",
+        "RGB": "rgb(169,169,169)"
+      },
+      {
+        "Name": "firebrick",
+        "Hash": "#b22222",
+        "Color": "#b22222",
+        "ARGB": "ffb22222",
+        "RGB": "rgb(178,34,34)"
+      },
+      {
+        "Name": "cornflowerblue",
+        "Hash": "#6495ed",
+        "Color": "#6495ed",
+        "ARGB": "ff6495ed",
+        "RGB": "rgb(100,149,237)"
+      },
+      {
+        "Name": "mediumspringgreen",
+        "Hash": "#00fa9a",
+        "Color": "#00fa9a",
+        "ARGB": "ff00fa9a",
+        "RGB": "rgb(0,250,154)"
+      },
+      {
+        "Name": "darkkhaki",
+        "Hash": "#bdb76b",
+        "Color": "#bdb76b",
+        "ARGB": "ffbdb76b",
+        "RGB": "rgb(189,183,107)"
+      },
+      {
+        "Name": "honeydew",
+        "Hash": "#f0fff0",
+        "Color": "#f0fff0",
+        "ARGB": "fff0fff0",
+        "RGB": "rgb(240,255,240)"
+      },
+      {
+        "Name": "darkviolet",
+        "Hash": "#9400d3",
+        "Color": "#9400d3",
+        "ARGB": "ff9400d3",
+        "RGB": "rgb(148,0,211)"
+      },
+      {
+        "Name": "palevioletred",
+        "Hash": "#db7093",
+        "Color": "#db7093",
+        "ARGB": "ffdb7093",
+        "RGB": "rgb(219,112,147)"
+      },
+      {
+        "Name": "lightyellow",
+        "Hash": "#ffffe0",
+        "Color": "#ffffe0",
+        "ARGB": "ffffffe0",
+        "RGB": "rgb(255,255,224)"
+      },
+      {
+        "Name": "deepskyblue",
+        "Hash": "#00bfff",
+        "Color": "#00bfff",
+        "ARGB": "ff00bfff",
+        "RGB": "rgb(0,191,255)"
+      },
+      {
+        "Name": "dimgray",
+        "Hash": "#696969",
+        "Color": "#696969",
+        "ARGB": "ff696969",
+        "RGB": "rgb(105,105,105)"
+      },
+      {
+        "Name": "lightcoral",
+        "Hash": "#f08080",
+        "Color": "#f08080",
+        "ARGB": "fff08080",
+        "RGB": "rgb(240,128,128)"
+      },
+      {
+        "Name": "yellow",
+        "Hash": "#ffff00",
+        "Color": "#ffff00",
+        "ARGB": "ffffff00",
+        "RGB": "rgb(255,255,0)"
+      },
+      {
+        "Name": "gold",
+        "Hash": "#ffd700",
+        "Color": "#ffd700",
+        "ARGB": "ffffd700",
+        "RGB": "rgb(255,215,0)"
+      },
+      {
+        "Name": "sienna",
+        "Hash": "#a0522d",
+        "Color": "#a0522d",
+        "ARGB": "ffa0522d",
+        "RGB": "rgb(160,82,45)"
+      },
+      {
+        "Name": "mediumslateblue",
+        "Hash": "#7b68ee",
+        "Color": "#7b68ee",
+        "ARGB": "ff7b68ee",
+        "RGB": "rgb(123,104,238)"
+      },
+      {
+        "Name": "peru",
+        "Hash": "#cd853f",
+        "Color": "#cd853f",
+        "ARGB": "ffcd853f",
+        "RGB": "rgb(205,133,63)"
+      },
+      {
+        "Name": "darkturquoise",
+        "Hash": "#00ced1",
+        "Color": "#00ced1",
+        "ARGB": "ff00ced1",
+        "RGB": "rgb(0,206,209)"
+      },
+      {
+        "Name": "green",
+        "Hash": "#008000",
+        "Color": "#008000",
+        "ARGB": "ff008000",
+        "RGB": "rgb(0,128,0)"
+      },
+      {
+        "Name": "lightsalmon",
+        "Hash": "#ffa07a",
+        "Color": "#ffa07a",
+        "ARGB": "ffffa07a",
+        "RGB": "rgb(255,160,122)"
+      },
+      {
+        "Name": "olivedrab",
+        "Hash": "#6b8e23",
+        "Color": "#6b8e23",
+        "ARGB": "ff6b8e23",
+        "RGB": "rgb(107,142,35)"
+      },
+      {
+        "Name": "deeppink",
+        "Hash": "#ff1493",
+        "Color": "#ff1493",
+        "ARGB": "ffff1493",
+        "RGB": "rgb(255,20,147)"
+      },
+      {
+        "Name": "silver",
+        "Hash": "#C0C0C0",
+        "Color": "#c0c0c0",
+        "ARGB": "ffc0c0c0",
+        "RGB": "rgb(192,192,192)"
+      },
+      {
+        "Name": "darkseagreen",
+        "Hash": "#8fbc8f",
+        "Color": "#8fbc8f",
+        "ARGB": "ff8fbc8f",
+        "RGB": "rgb(143,188,143)"
+      },
+      {
+        "Name": "oldlace",
+        "Hash": "#fdf5e6",
+        "Color": "#fdf5e6",
+        "ARGB": "fffdf5e6",
+        "RGB": "rgb(253,245,230)"
+      },
+      {
+        "Name": "blueviolet",
+        "Hash": "#8a2be2",
+        "Color": "#8a2be2",
+        "ARGB": "ff8a2be2",
+        "RGB": "rgb(138,43,226)"
+      },
+      {
+        "Name": "darkolivegreen",
+        "Hash": "#556b2f",
+        "Color": "#556b2f",
+        "ARGB": "ff556b2f",
+        "RGB": "rgb(85,107,47)"
+      },
+      {
+        "Name": "bisque",
+        "Hash": "#ffe4c4",
+        "Color": "#ffe4c4",
+        "ARGB": "ffffe4c4",
+        "RGB": "rgb(255,228,196)"
+      },
+      {
+        "Name": "lightskyblue",
+        "Hash": "#87cefa",
+        "Color": "#87cefa",
+        "ARGB": "ff87cefa",
+        "RGB": "rgb(135,206,250)"
+      },
+      {
+        "Name": "antiquewhite",
+        "Hash": "#faebd7",
+        "Color": "#faebd7",
+        "ARGB": "fffaebd7",
+        "RGB": "rgb(250,235,215)"
+      },
+      {
+        "Name": "lightgoldenrodyellow",
+        "Hash": "#fafad2",
+        "Color": "#fafad2",
+        "ARGB": "fffafad2",
+        "RGB": "rgb(250,250,210)"
+      },
+      {
+        "Name": "darkblue",
+        "Hash": "#00008b",
+        "Color": "#00008b",
+        "ARGB": "ff00008b",
+        "RGB": "rgb(0,0,139)"
+      },
+      {
+        "Name": "seagreen",
+        "Hash": "#2e8b57",
+        "Color": "#2e8b57",
+        "ARGB": "ff2e8b57",
+        "RGB": "rgb(46,139,87)"
+      },
+      {
+        "Name": "gainsboro",
+        "Hash": "#dcdcdc",
+        "Color": "#dcdcdc",
+        "ARGB": "ffdcdcdc",
+        "RGB": "rgb(220,220,220)"
+      },
+      {
+        "Name": "aqua",
+        "Hash": "#00FFFF",
+        "Color": "#00ffff",
+        "ARGB": "ff00ffff",
+        "RGB": "rgb(0,255,255)"
+      },
+      {
+        "Name": "peachpuff",
+        "Hash": "#ffdab9",
+        "Color": "#ffdab9",
+        "ARGB": "ffffdab9",
+        "RGB": "rgb(255,218,185)"
+      },
+      {
+        "Name": "greenyellow",
+        "Hash": "#adff2f",
+        "Color": "#adff2f",
+        "ARGB": "ffadff2f",
+        "RGB": "rgb(173,255,47)"
+      },
+      {
+        "Name": "palegoldenrod",
+        "Hash": "#eee8aa",
+        "Color": "#eee8aa",
+        "ARGB": "ffeee8aa",
+        "RGB": "rgb(238,232,170)"
+      },
+      {
+        "Name": "maroon",
+        "Hash": "#800000",
+        "Color": "#800000",
+        "ARGB": "ff800000",
+        "RGB": "rgb(128,0,0)"
+      },
+      {
+        "Name": "darkmagenta",
+        "Hash": "#8b008b",
+        "Color": "#8b008b",
+        "ARGB": "ff8b008b",
+        "RGB": "rgb(139,0,139)"
+      },
+      {
+        "Name": "palegreen",
+        "Hash": "#98fb98",
+        "Color": "#98fb98",
+        "ARGB": "ff98fb98",
+        "RGB": "rgb(152,251,152)"
+      },
+      {
+        "Name": "lightslategray",
+        "Hash": "#778899",
+        "Color": "#778899",
+        "ARGB": "ff778899",
+        "RGB": "rgb(119,136,153)"
+      }
+]

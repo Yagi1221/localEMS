@@ -1,0 +1,3092 @@
+{
+    "nodes": [
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 1400,
+          "height": 80
+        },
+        "style": {
+          "width": "1400px",
+          "height": "80px",
+          "opacity": 0.5
+        },
+        "computedPosition": {
+          "x": -705.3435540621299,
+          "y": 540.178989397306,
+          "z": 0
+        },
+        "id": "1-temp",
+        "label": "",
+        "position": {
+          "x": -705.3435540621299,
+          "y": 540.178989397306
+        },
+        "class": "light",
+        "selected": false,
+        "handleBounds": {
+          "source": [
+            {
+              "id": "1-temp__handle-bottom",
+              "position": "bottom",
+              "x": 696.999972729896,
+              "y": 77.0000374065254,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "1-temp__handle-top",
+              "position": "top",
+              "x": 696.999972729896,
+              "y": -2.9999457299644834,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        }
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 50,
+          "height": 40
+        },
+        "style": {
+          "width": "50px",
+          "height": "40px"
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "1__handle-bottom",
+              "position": "bottom",
+              "x": 21.999995362534715,
+              "y": 36.99994681491943,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "1__handle-top",
+              "position": "top",
+              "x": 21.999995362534715,
+              "y": -3.0000117455384983,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": -698.720063364201,
+          "y": 563.2942589850783,
+          "z": 0
+        },
+        "id": "1",
+        "label": "EMS",
+        "position": {
+          "x": -698.720063364201,
+          "y": 563.2942589850783
+        },
+        "class": "light",
+        "selected": false
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 150,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "MVCB__handle-bottom",
+              "position": "bottom",
+              "x": 72.00000132673439,
+              "y": 36.99997982270644,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "MVCB__handle-top",
+              "position": "top",
+              "x": 72.00000132673439,
+              "y": -2.9999952416449944,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": -706.0898120228745,
+          "y": 99.5585481436236,
+          "z": 0
+        },
+        "id": "MVCB",
+        "label": "MVCB",
+        "position": {
+          "x": -706.0898120228745,
+          "y": 99.5585481436236
+        },
+        "class": "light",
+        "style": {
+          "borderColor": "green"
+        },
+        "isParent": true,
+        "selected": false
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 150,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "VCB1__handle-bottom",
+              "position": "bottom",
+              "x": 72.00000132673439,
+              "y": 36.99999632659994,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "VCB1__handle-top",
+              "position": "top",
+              "x": 72.00000132673439,
+              "y": -2.9999952416449944,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": -529.2781676325933,
+          "y": 101.29509833136345,
+          "z": 0
+        },
+        "id": "VCB1",
+        "label": "VCB1",
+        "position": {
+          "x": -529.2781676325933,
+          "y": 101.29509833136345
+        },
+        "class": "light",
+        "style": {
+          "borderColor": "green"
+        },
+        "isParent": true,
+        "selected": false
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 150,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "VCB2__handle-bottom",
+              "position": "bottom",
+              "x": 72.0000178306279,
+              "y": 36.99999632659994,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "VCB2__handle-top",
+              "position": "top",
+              "x": 72.0000178306279,
+              "y": -3.0000117455384983,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": -195.0177005951003,
+          "y": 101.27472359058018,
+          "z": 0
+        },
+        "id": "VCB2",
+        "label": "VCB2",
+        "position": {
+          "x": -195.0177005951003,
+          "y": 101.27472359058018
+        },
+        "class": "light",
+        "style": {
+          "borderColor": "green"
+        },
+        "isParent": true,
+        "selected": false
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 150,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "VCB3__handle-bottom",
+              "position": "bottom",
+              "x": 72.00008384620192,
+              "y": 36.99999632659994,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "VCB3__handle-top",
+              "position": "top",
+              "x": 72.00008384620192,
+              "y": -2.9999952416449944,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": 132.81728134656865,
+          "y": 101.26793201031904,
+          "z": 0
+        },
+        "id": "VCB3",
+        "label": "VCB3",
+        "position": {
+          "x": 132.81728134656865,
+          "y": 101.26793201031904
+        },
+        "class": "light",
+        "style": {
+          "borderColor": "green"
+        },
+        "isParent": true,
+        "selected": false
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 150,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "9__handle-bottom",
+              "position": "bottom",
+              "x": 71.99988579947987,
+              "y": 36.99999632659994,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "9__handle-top",
+              "position": "top",
+              "x": 71.99988579947987,
+              "y": -2.9999952416449944,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": 486.5057433380764,
+          "y": 101.26793201031907,
+          "z": 0
+        },
+        "id": "9",
+        "label": "VCB4",
+        "position": {
+          "x": 486.5057433380764,
+          "y": 101.26793201031907
+        },
+        "class": "light",
+        "style": {
+          "borderColor": "green"
+        },
+        "isParent": true,
+        "selected": false
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 120,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "10__handle-bottom",
+              "position": "bottom",
+              "x": 57.000008614615915,
+              "y": 36.99994681491943,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "10__handle-top",
+              "position": "top",
+              "x": 57.000008614615915,
+              "y": -3.0000117455384983,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": -525.5496035652959,
+          "y": 563.8268541238401,
+          "z": 0
+        },
+        "id": "10",
+        "label": "Switch",
+        "position": {
+          "x": -525.5496035652959,
+          "y": 563.8268541238401
+        },
+        "class": "light",
+        "style": {
+          "width": "120px",
+          "height": "40px",
+          "textAlign": "center",
+          "borderColor": "orange"
+        },
+        "selected": false
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 120,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "11__handle-bottom",
+              "position": "bottom",
+              "x": 56.99995910293541,
+              "y": 36.99994681491943,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "11__handle-top",
+              "position": "top",
+              "x": 56.99995910293541,
+              "y": -3.0000117455384983,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": -178.23845015255068,
+          "y": 563.212941477835,
+          "z": 0
+        },
+        "id": "11",
+        "label": "Switch 2",
+        "position": {
+          "x": -178.23845015255068,
+          "y": 563.212941477835
+        },
+        "class": "light",
+        "style": {
+          "width": "120px",
+          "height": "40px",
+          "textAlign": "center",
+          "borderColor": "orange"
+        },
+        "selected": false
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 120,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "13__handle-bottom",
+              "position": "bottom",
+              "x": 56.99995910293541,
+              "y": 37.000012830493446,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "13__handle-top",
+              "position": "top",
+              "x": 56.99995910293541,
+              "y": -3.0000117455384983,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": 551.0578891384573,
+          "y": 559.4206242016425,
+          "z": 0
+        },
+        "id": "13",
+        "label": "Switch 3",
+        "position": {
+          "x": 551.0578891384573,
+          "y": 559.4206242016425
+        },
+        "class": "light",
+        "style": {
+          "width": "120px",
+          "height": "40px",
+          "textAlign": "center",
+          "borderColor": "orange"
+        },
+        "selected": false
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 150,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "14__handle-bottom",
+              "position": "bottom",
+              "x": 71.99998482284089,
+              "y": 36.99999632659994,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "14__handle-top",
+              "position": "top",
+              "x": 71.99998482284089,
+              "y": -2.9999952416449944,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": -373.797481261751,
+          "y": 101.21123997995295,
+          "z": 0
+        },
+        "id": "14",
+        "label": "ACB1",
+        "position": {
+          "x": -373.797481261751,
+          "y": 101.21123997995295
+        },
+        "class": "light",
+        "style": {
+          "borderColor": "green"
+        },
+        "isParent": true,
+        "selected": false
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 150,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "15__handle-bottom",
+              "position": "bottom",
+              "x": 72.0000178306279,
+              "y": 36.99999632659994,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "15__handle-top",
+              "position": "top",
+              "x": 72.0000178306279,
+              "y": -2.9999787377514906,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": -44.69412282868988,
+          "y": 101.20444839969187,
+          "z": 0
+        },
+        "id": "15",
+        "label": "ACB2",
+        "position": {
+          "x": -44.69412282868988,
+          "y": 101.20444839969187
+        },
+        "class": "light",
+        "style": {
+          "borderColor": "green"
+        },
+        "isParent": true,
+        "selected": false
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 150,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "16__handle-bottom",
+              "position": "bottom",
+              "x": 71.99995181505388,
+              "y": 36.99999632659994,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "16__handle-top",
+              "position": "top",
+              "x": 71.99995181505388,
+              "y": -2.9999952416449944,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": 283.13406753271806,
+          "y": 101.19765681943076,
+          "z": 0
+        },
+        "id": "16",
+        "label": "ACB3",
+        "position": {
+          "x": 283.13406753271806,
+          "y": 101.19765681943076
+        },
+        "class": "light",
+        "style": {
+          "borderColor": "green"
+        },
+        "isParent": true,
+        "selected": false
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 150,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "17__handle-bottom",
+              "position": "bottom",
+              "x": 72.00014986177592,
+              "y": 36.99999632659994,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "17__handle-top",
+              "position": "top",
+              "x": 72.00014986177592,
+              "y": -2.9999952416449944,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": 637.3616923852929,
+          "y": 101.42041653902047,
+          "z": 0
+        },
+        "id": "17",
+        "label": "ACB4",
+        "position": {
+          "x": 637.3616923852929,
+          "y": 101.42041653902047
+        },
+        "class": "light",
+        "style": {
+          "borderColor": "green"
+        },
+        "isParent": true,
+        "selected": false
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 150,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "18__handle-bottom",
+              "position": "bottom",
+              "x": 72.0000178306279,
+              "y": 36.99997982270644,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "18__handle-top",
+              "position": "top",
+              "x": 72.0000178306279,
+              "y": -3.0000117455384983,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": -378.83787086837106,
+          "y": 373.6853570439501,
+          "z": 0
+        },
+        "id": "18",
+        "label": "PCS1",
+        "position": {
+          "x": -378.83787086837106,
+          "y": 373.6853570439501
+        },
+        "class": "light",
+        "style": {
+          "borderColor": "#033f63"
+        },
+        "selected": false
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 150,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "19__handle-bottom",
+              "position": "bottom",
+              "x": 72.0000178306279,
+              "y": 37.00004583828046,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "19__handle-top",
+              "position": "top",
+              "x": 72.0000178306279,
+              "y": -2.9999787377514906,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": -47.87295435702434,
+          "y": 375.5488159180924,
+          "z": 0
+        },
+        "id": "19",
+        "label": "PCS2",
+        "position": {
+          "x": -47.87295435702434,
+          "y": 375.5488159180924
+        },
+        "class": "light",
+        "style": {
+          "borderColor": "#033f63"
+        },
+        "selected": false
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 150,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "20__handle-bottom",
+              "position": "bottom",
+              "x": 72.00014986177592,
+              "y": 37.000012830493446,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "20__handle-top",
+              "position": "top",
+              "x": 72.00014986177592,
+              "y": -3.0000117455384983,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": 286.6018801331071,
+          "y": 366.7578942175561,
+          "z": 0
+        },
+        "id": "20",
+        "label": "PCS3",
+        "position": {
+          "x": 286.6018801331071,
+          "y": 366.7578942175561
+        },
+        "class": "light",
+        "style": {
+          "borderColor": "#033f63"
+        },
+        "selected": false
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 150,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "21__handle-bottom",
+              "position": "bottom",
+              "x": 72.0000178306279,
+              "y": 37.00004583828046,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "21__handle-top",
+              "position": "top",
+              "x": 72.0000178306279,
+              "y": -2.9999457299644834,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": -378.6054314474459,
+          "y": 447.8021657701544,
+          "z": 0
+        },
+        "id": "21",
+        "label": "BMS1",
+        "position": {
+          "x": -378.6054314474459,
+          "y": 447.8021657701544
+        },
+        "class": "light",
+        "selected": false
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 150,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "22__handle-bottom",
+              "position": "bottom",
+              "x": 72.0000178306279,
+              "y": 36.99997982270644,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "22__handle-top",
+              "position": "top",
+              "x": 72.0000178306279,
+              "y": -3.0000117455384983,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": -43.17106413709047,
+          "y": 446.44935909803803,
+          "z": 0
+        },
+        "id": "22",
+        "label": "BMS2",
+        "position": {
+          "x": -43.17106413709047,
+          "y": 446.44935909803803
+        },
+        "class": "light",
+        "selected": false
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 150,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "23__handle-bottom",
+              "position": "bottom",
+              "x": 71.99995181505388,
+              "y": 36.99997982270644,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "23__handle-top",
+              "position": "top",
+              "x": 71.99995181505388,
+              "y": -3.0000117455384983,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": 286.8270183683387,
+          "y": 445.9457732893484,
+          "z": 0
+        },
+        "id": "23",
+        "label": "BMS3",
+        "position": {
+          "x": 286.8270183683387,
+          "y": 445.9457732893484
+        },
+        "class": "light",
+        "selected": false
+      }
+    ],
+    "edges": [
+      {
+        "id": "vueflow__edge-2020__handle-bottom-2323__handle-top",
+        "source": "20",
+        "sourceHandle": "20__handle-bottom",
+        "target": "23",
+        "targetHandle": "23__handle-top",
+        "z": 0,
+        "sourceX": 0,
+        "sourceY": 0,
+        "targetX": 0,
+        "targetY": 0,
+        "sourceNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "20__handle-bottom",
+                "position": "bottom",
+                "x": 72.00014986177592,
+                "y": 37.000012830493446,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "20__handle-top",
+                "position": "top",
+                "x": 72.00014986177592,
+                "y": -3.0000117455384983,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": 286.6018801331071,
+            "y": 366.7578942175561,
+            "z": 0
+          },
+          "id": "20",
+          "label": "PCS3",
+          "position": {
+            "x": 286.6018801331071,
+            "y": 366.7578942175561
+          },
+          "class": "light",
+          "style": {
+            "borderColor": "#033f63"
+          },
+          "selected": false
+        },
+        "targetNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "23__handle-bottom",
+                "position": "bottom",
+                "x": 71.99995181505388,
+                "y": 36.99997982270644,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "23__handle-top",
+                "position": "top",
+                "x": 71.99995181505388,
+                "y": -3.0000117455384983,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": 286.8270183683387,
+            "y": 445.9457732893484,
+            "z": 0
+          },
+          "id": "23",
+          "label": "BMS3",
+          "position": {
+            "x": 286.8270183683387,
+            "y": 445.9457732893484
+          },
+          "class": "light",
+          "selected": false
+        }
+      },
+      {
+        "id": "vueflow__edge-1919__handle-bottom-2222__handle-top",
+        "source": "19",
+        "sourceHandle": "19__handle-bottom",
+        "target": "22",
+        "targetHandle": "22__handle-top",
+        "z": 0,
+        "sourceX": 0,
+        "sourceY": 0,
+        "targetX": 0,
+        "targetY": 0,
+        "sourceNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "19__handle-bottom",
+                "position": "bottom",
+                "x": 72.0000178306279,
+                "y": 37.00004583828046,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "19__handle-top",
+                "position": "top",
+                "x": 72.0000178306279,
+                "y": -2.9999787377514906,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": -47.87295435702434,
+            "y": 375.5488159180924,
+            "z": 0
+          },
+          "id": "19",
+          "label": "PCS2",
+          "position": {
+            "x": -47.87295435702434,
+            "y": 375.5488159180924
+          },
+          "class": "light",
+          "style": {
+            "borderColor": "#033f63"
+          },
+          "selected": false
+        },
+        "targetNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "22__handle-bottom",
+                "position": "bottom",
+                "x": 72.0000178306279,
+                "y": 36.99997982270644,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "22__handle-top",
+                "position": "top",
+                "x": 72.0000178306279,
+                "y": -3.0000117455384983,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": -43.17106413709047,
+            "y": 446.44935909803803,
+            "z": 0
+          },
+          "id": "22",
+          "label": "BMS2",
+          "position": {
+            "x": -43.17106413709047,
+            "y": 446.44935909803803
+          },
+          "class": "light",
+          "selected": false
+        }
+      },
+      {
+        "id": "vueflow__edge-1818__handle-bottom-2121__handle-top",
+        "source": "18",
+        "sourceHandle": "18__handle-bottom",
+        "target": "21",
+        "targetHandle": "21__handle-top",
+        "z": 0,
+        "sourceX": 0,
+        "sourceY": 0,
+        "targetX": 0,
+        "targetY": 0,
+        "sourceNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "18__handle-bottom",
+                "position": "bottom",
+                "x": 72.0000178306279,
+                "y": 36.99997982270644,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "18__handle-top",
+                "position": "top",
+                "x": 72.0000178306279,
+                "y": -3.0000117455384983,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": -378.83787086837106,
+            "y": 373.6853570439501,
+            "z": 0
+          },
+          "id": "18",
+          "label": "PCS1",
+          "position": {
+            "x": -378.83787086837106,
+            "y": 373.6853570439501
+          },
+          "class": "light",
+          "style": {
+            "borderColor": "#033f63"
+          },
+          "selected": false
+        },
+        "targetNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "21__handle-bottom",
+                "position": "bottom",
+                "x": 72.0000178306279,
+                "y": 37.00004583828046,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "21__handle-top",
+                "position": "top",
+                "x": 72.0000178306279,
+                "y": -2.9999457299644834,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": -378.6054314474459,
+            "y": 447.8021657701544,
+            "z": 0
+          },
+          "id": "21",
+          "label": "BMS1",
+          "position": {
+            "x": -378.6054314474459,
+            "y": 447.8021657701544
+          },
+          "class": "light",
+          "selected": false
+        }
+      },
+      {
+        "id": "vueflow__edge-MVCBMVCB__handle-bottom-1010__handle-top",
+        "source": "MVCB",
+        "sourceHandle": "MVCB__handle-bottom",
+        "target": "10",
+        "targetHandle": "10__handle-top",
+        "z": 0,
+        "sourceX": 0,
+        "sourceY": 0,
+        "targetX": 0,
+        "targetY": 0,
+        "sourceNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "MVCB__handle-bottom",
+                "position": "bottom",
+                "x": 72.00000132673439,
+                "y": 36.99997982270644,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "MVCB__handle-top",
+                "position": "top",
+                "x": 72.00000132673439,
+                "y": -2.9999952416449944,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": -706.0898120228745,
+            "y": 99.5585481436236,
+            "z": 0
+          },
+          "id": "MVCB",
+          "label": "MVCB",
+          "position": {
+            "x": -706.0898120228745,
+            "y": 99.5585481436236
+          },
+          "class": "light",
+          "style": {
+            "borderColor": "green"
+          },
+          "isParent": true,
+          "selected": false
+        },
+        "targetNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 120,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "10__handle-bottom",
+                "position": "bottom",
+                "x": 57.000008614615915,
+                "y": 36.99994681491943,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "10__handle-top",
+                "position": "top",
+                "x": 57.000008614615915,
+                "y": -3.0000117455384983,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": -525.5496035652959,
+            "y": 563.8268541238401,
+            "z": 0
+          },
+          "id": "10",
+          "label": "Switch",
+          "position": {
+            "x": -525.5496035652959,
+            "y": 563.8268541238401
+          },
+          "class": "light",
+          "style": {
+            "width": "120px",
+            "height": "40px",
+            "textAlign": "center",
+            "borderColor": "orange"
+          },
+          "selected": false
+        }
+      },
+      {
+        "id": "vueflow__edge-VCB1VCB1__handle-bottom-1010__handle-top",
+        "source": "VCB1",
+        "sourceHandle": "VCB1__handle-bottom",
+        "target": "10",
+        "targetHandle": "10__handle-top",
+        "z": 0,
+        "sourceX": 0,
+        "sourceY": 0,
+        "targetX": 0,
+        "targetY": 0,
+        "sourceNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "VCB1__handle-bottom",
+                "position": "bottom",
+                "x": 72.00000132673439,
+                "y": 36.99999632659994,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "VCB1__handle-top",
+                "position": "top",
+                "x": 72.00000132673439,
+                "y": -2.9999952416449944,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": -529.2781676325933,
+            "y": 101.29509833136345,
+            "z": 0
+          },
+          "id": "VCB1",
+          "label": "VCB1",
+          "position": {
+            "x": -529.2781676325933,
+            "y": 101.29509833136345
+          },
+          "class": "light",
+          "style": {
+            "borderColor": "green"
+          },
+          "isParent": true,
+          "selected": false
+        },
+        "targetNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 120,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "10__handle-bottom",
+                "position": "bottom",
+                "x": 57.000008614615915,
+                "y": 36.99994681491943,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "10__handle-top",
+                "position": "top",
+                "x": 57.000008614615915,
+                "y": -3.0000117455384983,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": -525.5496035652959,
+            "y": 563.8268541238401,
+            "z": 0
+          },
+          "id": "10",
+          "label": "Switch",
+          "position": {
+            "x": -525.5496035652959,
+            "y": 563.8268541238401
+          },
+          "class": "light",
+          "style": {
+            "width": "120px",
+            "height": "40px",
+            "textAlign": "center",
+            "borderColor": "orange"
+          },
+          "selected": false
+        }
+      },
+      {
+        "id": "vueflow__edge-1414__handle-bottom-1010__handle-top",
+        "source": "14",
+        "sourceHandle": "14__handle-bottom",
+        "target": "10",
+        "targetHandle": "10__handle-top",
+        "z": 0,
+        "sourceX": 0,
+        "sourceY": 0,
+        "targetX": 0,
+        "targetY": 0,
+        "sourceNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "14__handle-bottom",
+                "position": "bottom",
+                "x": 71.99998482284089,
+                "y": 36.99999632659994,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "14__handle-top",
+                "position": "top",
+                "x": 71.99998482284089,
+                "y": -2.9999952416449944,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": -373.797481261751,
+            "y": 101.21123997995295,
+            "z": 0
+          },
+          "id": "14",
+          "label": "ACB1",
+          "position": {
+            "x": -373.797481261751,
+            "y": 101.21123997995295
+          },
+          "class": "light",
+          "style": {
+            "borderColor": "green"
+          },
+          "isParent": true,
+          "selected": false
+        },
+        "targetNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 120,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "10__handle-bottom",
+                "position": "bottom",
+                "x": 57.000008614615915,
+                "y": 36.99994681491943,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "10__handle-top",
+                "position": "top",
+                "x": 57.000008614615915,
+                "y": -3.0000117455384983,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": -525.5496035652959,
+            "y": 563.8268541238401,
+            "z": 0
+          },
+          "id": "10",
+          "label": "Switch",
+          "position": {
+            "x": -525.5496035652959,
+            "y": 563.8268541238401
+          },
+          "class": "light",
+          "style": {
+            "width": "120px",
+            "height": "40px",
+            "textAlign": "center",
+            "borderColor": "orange"
+          },
+          "selected": false
+        }
+      },
+      {
+        "id": "vueflow__edge-VCB2VCB2__handle-bottom-1111__handle-top",
+        "source": "VCB2",
+        "sourceHandle": "VCB2__handle-bottom",
+        "target": "11",
+        "targetHandle": "11__handle-top",
+        "z": 0,
+        "sourceX": 0,
+        "sourceY": 0,
+        "targetX": 0,
+        "targetY": 0,
+        "sourceNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "VCB2__handle-bottom",
+                "position": "bottom",
+                "x": 72.0000178306279,
+                "y": 36.99999632659994,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "VCB2__handle-top",
+                "position": "top",
+                "x": 72.0000178306279,
+                "y": -3.0000117455384983,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": -195.0177005951003,
+            "y": 101.27472359058018,
+            "z": 0
+          },
+          "id": "VCB2",
+          "label": "VCB2",
+          "position": {
+            "x": -195.0177005951003,
+            "y": 101.27472359058018
+          },
+          "class": "light",
+          "style": {
+            "borderColor": "green"
+          },
+          "isParent": true,
+          "selected": false
+        },
+        "targetNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 120,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "11__handle-bottom",
+                "position": "bottom",
+                "x": 56.99995910293541,
+                "y": 36.99994681491943,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "11__handle-top",
+                "position": "top",
+                "x": 56.99995910293541,
+                "y": -3.0000117455384983,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": -178.23845015255068,
+            "y": 563.212941477835,
+            "z": 0
+          },
+          "id": "11",
+          "label": "Switch 2",
+          "position": {
+            "x": -178.23845015255068,
+            "y": 563.212941477835
+          },
+          "class": "light",
+          "style": {
+            "width": "120px",
+            "height": "40px",
+            "textAlign": "center",
+            "borderColor": "orange"
+          },
+          "selected": false
+        }
+      },
+      {
+        "id": "vueflow__edge-1515__handle-bottom-1111__handle-top",
+        "source": "15",
+        "sourceHandle": "15__handle-bottom",
+        "target": "11",
+        "targetHandle": "11__handle-top",
+        "z": 0,
+        "sourceX": 0,
+        "sourceY": 0,
+        "targetX": 0,
+        "targetY": 0,
+        "sourceNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "15__handle-bottom",
+                "position": "bottom",
+                "x": 72.0000178306279,
+                "y": 36.99999632659994,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "15__handle-top",
+                "position": "top",
+                "x": 72.0000178306279,
+                "y": -2.9999787377514906,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": -44.69412282868988,
+            "y": 101.20444839969187,
+            "z": 0
+          },
+          "id": "15",
+          "label": "ACB2",
+          "position": {
+            "x": -44.69412282868988,
+            "y": 101.20444839969187
+          },
+          "class": "light",
+          "style": {
+            "borderColor": "green"
+          },
+          "isParent": true,
+          "selected": false
+        },
+        "targetNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 120,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "11__handle-bottom",
+                "position": "bottom",
+                "x": 56.99995910293541,
+                "y": 36.99994681491943,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "11__handle-top",
+                "position": "top",
+                "x": 56.99995910293541,
+                "y": -3.0000117455384983,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": -178.23845015255068,
+            "y": 563.212941477835,
+            "z": 0
+          },
+          "id": "11",
+          "label": "Switch 2",
+          "position": {
+            "x": -178.23845015255068,
+            "y": 563.212941477835
+          },
+          "class": "light",
+          "style": {
+            "width": "120px",
+            "height": "40px",
+            "textAlign": "center",
+            "borderColor": "orange"
+          },
+          "selected": false
+        }
+      },
+      {
+        "id": "vueflow__edge-VCB3VCB3__handle-bottom-1313__handle-top",
+        "source": "VCB3",
+        "sourceHandle": "VCB3__handle-bottom",
+        "target": "13",
+        "targetHandle": "13__handle-top",
+        "z": 0,
+        "sourceX": 0,
+        "sourceY": 0,
+        "targetX": 0,
+        "targetY": 0,
+        "sourceNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "VCB3__handle-bottom",
+                "position": "bottom",
+                "x": 72.00008384620192,
+                "y": 36.99999632659994,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "VCB3__handle-top",
+                "position": "top",
+                "x": 72.00008384620192,
+                "y": -2.9999952416449944,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": 132.81728134656865,
+            "y": 101.26793201031904,
+            "z": 0
+          },
+          "id": "VCB3",
+          "label": "VCB3",
+          "position": {
+            "x": 132.81728134656865,
+            "y": 101.26793201031904
+          },
+          "class": "light",
+          "style": {
+            "borderColor": "green"
+          },
+          "isParent": true,
+          "selected": false
+        },
+        "targetNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 120,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "13__handle-bottom",
+                "position": "bottom",
+                "x": 56.99995910293541,
+                "y": 37.000012830493446,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "13__handle-top",
+                "position": "top",
+                "x": 56.99995910293541,
+                "y": -3.0000117455384983,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": 551.0578891384573,
+            "y": 559.4206242016425,
+            "z": 0
+          },
+          "id": "13",
+          "label": "Switch 3",
+          "position": {
+            "x": 551.0578891384573,
+            "y": 559.4206242016425
+          },
+          "class": "light",
+          "style": {
+            "width": "120px",
+            "height": "40px",
+            "textAlign": "center",
+            "borderColor": "orange"
+          },
+          "selected": false
+        }
+      },
+      {
+        "id": "vueflow__edge-1616__handle-bottom-1313__handle-top",
+        "source": "16",
+        "sourceHandle": "16__handle-bottom",
+        "target": "13",
+        "targetHandle": "13__handle-top",
+        "z": 0,
+        "sourceX": 0,
+        "sourceY": 0,
+        "targetX": 0,
+        "targetY": 0,
+        "sourceNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "16__handle-bottom",
+                "position": "bottom",
+                "x": 71.99995181505388,
+                "y": 36.99999632659994,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "16__handle-top",
+                "position": "top",
+                "x": 71.99995181505388,
+                "y": -2.9999952416449944,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": 283.13406753271806,
+            "y": 101.19765681943076,
+            "z": 0
+          },
+          "id": "16",
+          "label": "ACB3",
+          "position": {
+            "x": 283.13406753271806,
+            "y": 101.19765681943076
+          },
+          "class": "light",
+          "style": {
+            "borderColor": "green"
+          },
+          "isParent": true,
+          "selected": false
+        },
+        "targetNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 120,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "13__handle-bottom",
+                "position": "bottom",
+                "x": 56.99995910293541,
+                "y": 37.000012830493446,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "13__handle-top",
+                "position": "top",
+                "x": 56.99995910293541,
+                "y": -3.0000117455384983,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": 551.0578891384573,
+            "y": 559.4206242016425,
+            "z": 0
+          },
+          "id": "13",
+          "label": "Switch 3",
+          "position": {
+            "x": 551.0578891384573,
+            "y": 559.4206242016425
+          },
+          "class": "light",
+          "style": {
+            "width": "120px",
+            "height": "40px",
+            "textAlign": "center",
+            "borderColor": "orange"
+          },
+          "selected": false
+        }
+      },
+      {
+        "id": "vueflow__edge-99__handle-bottom-1313__handle-top",
+        "source": "9",
+        "sourceHandle": "9__handle-bottom",
+        "target": "13",
+        "targetHandle": "13__handle-top",
+        "z": 0,
+        "sourceX": 0,
+        "sourceY": 0,
+        "targetX": 0,
+        "targetY": 0,
+        "sourceNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "9__handle-bottom",
+                "position": "bottom",
+                "x": 71.99988579947987,
+                "y": 36.99999632659994,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "9__handle-top",
+                "position": "top",
+                "x": 71.99988579947987,
+                "y": -2.9999952416449944,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": 486.5057433380764,
+            "y": 101.26793201031907,
+            "z": 0
+          },
+          "id": "9",
+          "label": "VCB4",
+          "position": {
+            "x": 486.5057433380764,
+            "y": 101.26793201031907
+          },
+          "class": "light",
+          "style": {
+            "borderColor": "green"
+          },
+          "isParent": true,
+          "selected": false
+        },
+        "targetNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 120,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "13__handle-bottom",
+                "position": "bottom",
+                "x": 56.99995910293541,
+                "y": 37.000012830493446,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "13__handle-top",
+                "position": "top",
+                "x": 56.99995910293541,
+                "y": -3.0000117455384983,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": 551.0578891384573,
+            "y": 559.4206242016425,
+            "z": 0
+          },
+          "id": "13",
+          "label": "Switch 3",
+          "position": {
+            "x": 551.0578891384573,
+            "y": 559.4206242016425
+          },
+          "class": "light",
+          "style": {
+            "width": "120px",
+            "height": "40px",
+            "textAlign": "center",
+            "borderColor": "orange"
+          },
+          "selected": false
+        }
+      },
+      {
+        "id": "vueflow__edge-1717__handle-bottom-1313__handle-top",
+        "source": "17",
+        "sourceHandle": "17__handle-bottom",
+        "target": "13",
+        "targetHandle": "13__handle-top",
+        "z": 0,
+        "sourceX": 0,
+        "sourceY": 0,
+        "targetX": 0,
+        "targetY": 0,
+        "sourceNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "17__handle-bottom",
+                "position": "bottom",
+                "x": 72.00014986177592,
+                "y": 36.99999632659994,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "17__handle-top",
+                "position": "top",
+                "x": 72.00014986177592,
+                "y": -2.9999952416449944,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": 637.3616923852929,
+            "y": 101.42041653902047,
+            "z": 0
+          },
+          "id": "17",
+          "label": "ACB4",
+          "position": {
+            "x": 637.3616923852929,
+            "y": 101.42041653902047
+          },
+          "class": "light",
+          "style": {
+            "borderColor": "green"
+          },
+          "isParent": true,
+          "selected": false
+        },
+        "targetNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 120,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "13__handle-bottom",
+                "position": "bottom",
+                "x": 56.99995910293541,
+                "y": 37.000012830493446,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "13__handle-top",
+                "position": "top",
+                "x": 56.99995910293541,
+                "y": -3.0000117455384983,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": 551.0578891384573,
+            "y": 559.4206242016425,
+            "z": 0
+          },
+          "id": "13",
+          "label": "Switch 3",
+          "position": {
+            "x": 551.0578891384573,
+            "y": 559.4206242016425
+          },
+          "class": "light",
+          "style": {
+            "width": "120px",
+            "height": "40px",
+            "textAlign": "center",
+            "borderColor": "orange"
+          },
+          "selected": false
+        }
+      },
+      {
+        "id": "vueflow__edge-1818__handle-bottom-1919__handle-top",
+        "source": "18",
+        "sourceHandle": "18__handle-bottom",
+        "target": "19",
+        "targetHandle": "19__handle-top",
+        "z": 0,
+        "sourceX": 0,
+        "sourceY": 0,
+        "targetX": 0,
+        "targetY": 0,
+        "sourceNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "18__handle-bottom",
+                "position": "bottom",
+                "x": 72.0000178306279,
+                "y": 36.99997982270644,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "18__handle-top",
+                "position": "top",
+                "x": 72.0000178306279,
+                "y": -3.0000117455384983,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": -378.83787086837106,
+            "y": 373.6853570439501,
+            "z": 0
+          },
+          "id": "18",
+          "label": "PCS1",
+          "position": {
+            "x": -378.83787086837106,
+            "y": 373.6853570439501
+          },
+          "class": "light",
+          "style": {
+            "borderColor": "#033f63"
+          },
+          "selected": false
+        },
+        "targetNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "19__handle-bottom",
+                "position": "bottom",
+                "x": 72.0000178306279,
+                "y": 37.00004583828046,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "19__handle-top",
+                "position": "top",
+                "x": 72.0000178306279,
+                "y": -2.9999787377514906,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": -47.87295435702434,
+            "y": 375.5488159180924,
+            "z": 0
+          },
+          "id": "19",
+          "label": "PCS2",
+          "position": {
+            "x": -47.87295435702434,
+            "y": 375.5488159180924
+          },
+          "class": "light",
+          "style": {
+            "borderColor": "#033f63"
+          },
+          "selected": false
+        }
+      },
+      {
+        "id": "vueflow__edge-1919__handle-bottom-2020__handle-top",
+        "source": "19",
+        "sourceHandle": "19__handle-bottom",
+        "target": "20",
+        "targetHandle": "20__handle-top",
+        "z": 0,
+        "sourceX": 0,
+        "sourceY": 0,
+        "targetX": 0,
+        "targetY": 0,
+        "sourceNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "19__handle-bottom",
+                "position": "bottom",
+                "x": 72.0000178306279,
+                "y": 37.00004583828046,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "19__handle-top",
+                "position": "top",
+                "x": 72.0000178306279,
+                "y": -2.9999787377514906,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": -47.87295435702434,
+            "y": 375.5488159180924,
+            "z": 0
+          },
+          "id": "19",
+          "label": "PCS2",
+          "position": {
+            "x": -47.87295435702434,
+            "y": 375.5488159180924
+          },
+          "class": "light",
+          "style": {
+            "borderColor": "#033f63"
+          },
+          "selected": false
+        },
+        "targetNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "20__handle-bottom",
+                "position": "bottom",
+                "x": 72.00014986177592,
+                "y": 37.000012830493446,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "20__handle-top",
+                "position": "top",
+                "x": 72.00014986177592,
+                "y": -3.0000117455384983,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": 286.6018801331071,
+            "y": 366.7578942175561,
+            "z": 0
+          },
+          "id": "20",
+          "label": "PCS3",
+          "position": {
+            "x": 286.6018801331071,
+            "y": 366.7578942175561
+          },
+          "class": "light",
+          "style": {
+            "borderColor": "#033f63"
+          },
+          "selected": false
+        }
+      },
+      {
+        "id": "vueflow__edge-2121__handle-bottom-2222__handle-top",
+        "source": "21",
+        "sourceHandle": "21__handle-bottom",
+        "target": "22",
+        "targetHandle": "22__handle-top",
+        "z": 0,
+        "sourceX": 0,
+        "sourceY": 0,
+        "targetX": 0,
+        "targetY": 0,
+        "sourceNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "21__handle-bottom",
+                "position": "bottom",
+                "x": 72.0000178306279,
+                "y": 37.00004583828046,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "21__handle-top",
+                "position": "top",
+                "x": 72.0000178306279,
+                "y": -2.9999457299644834,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": -378.6054314474459,
+            "y": 447.8021657701544,
+            "z": 0
+          },
+          "id": "21",
+          "label": "BMS1",
+          "position": {
+            "x": -378.6054314474459,
+            "y": 447.8021657701544
+          },
+          "class": "light",
+          "selected": false
+        },
+        "targetNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "22__handle-bottom",
+                "position": "bottom",
+                "x": 72.0000178306279,
+                "y": 36.99997982270644,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "22__handle-top",
+                "position": "top",
+                "x": 72.0000178306279,
+                "y": -3.0000117455384983,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": -43.17106413709047,
+            "y": 446.44935909803803,
+            "z": 0
+          },
+          "id": "22",
+          "label": "BMS2",
+          "position": {
+            "x": -43.17106413709047,
+            "y": 446.44935909803803
+          },
+          "class": "light",
+          "selected": false
+        }
+      },
+      {
+        "id": "vueflow__edge-2222__handle-bottom-2323__handle-top",
+        "source": "22",
+        "sourceHandle": "22__handle-bottom",
+        "target": "23",
+        "targetHandle": "23__handle-top",
+        "z": 0,
+        "sourceX": 0,
+        "sourceY": 0,
+        "targetX": 0,
+        "targetY": 0,
+        "sourceNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "22__handle-bottom",
+                "position": "bottom",
+                "x": 72.0000178306279,
+                "y": 36.99997982270644,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "22__handle-top",
+                "position": "top",
+                "x": 72.0000178306279,
+                "y": -3.0000117455384983,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": -43.17106413709047,
+            "y": 446.44935909803803,
+            "z": 0
+          },
+          "id": "22",
+          "label": "BMS2",
+          "position": {
+            "x": -43.17106413709047,
+            "y": 446.44935909803803
+          },
+          "class": "light",
+          "selected": false
+        },
+        "targetNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "23__handle-bottom",
+                "position": "bottom",
+                "x": 71.99995181505388,
+                "y": 36.99997982270644,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "23__handle-top",
+                "position": "top",
+                "x": 71.99995181505388,
+                "y": -3.0000117455384983,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": 286.8270183683387,
+            "y": 445.9457732893484,
+            "z": 0
+          },
+          "id": "23",
+          "label": "BMS3",
+          "position": {
+            "x": 286.8270183683387,
+            "y": 445.9457732893484
+          },
+          "class": "light",
+          "selected": false
+        }
+      },
+      {
+        "id": "vueflow__edge-2121__handle-bottom-1010__handle-bottom",
+        "source": "21",
+        "sourceHandle": "21__handle-bottom",
+        "target": "10",
+        "targetHandle": "10__handle-bottom",
+        "z": 0,
+        "sourceX": 0,
+        "sourceY": 0,
+        "targetX": 0,
+        "targetY": 0,
+        "sourceNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "21__handle-bottom",
+                "position": "bottom",
+                "x": 72.0000178306279,
+                "y": 37.00004583828046,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "21__handle-top",
+                "position": "top",
+                "x": 72.0000178306279,
+                "y": -2.9999457299644834,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": -378.6054314474459,
+            "y": 447.8021657701544,
+            "z": 0
+          },
+          "id": "21",
+          "label": "BMS1",
+          "position": {
+            "x": -378.6054314474459,
+            "y": 447.8021657701544
+          },
+          "class": "light",
+          "selected": false
+        },
+        "targetNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 120,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "10__handle-bottom",
+                "position": "bottom",
+                "x": 57.000008614615915,
+                "y": 36.99994681491943,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "10__handle-top",
+                "position": "top",
+                "x": 57.000008614615915,
+                "y": -3.0000117455384983,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": -525.5496035652959,
+            "y": 563.8268541238401,
+            "z": 0
+          },
+          "id": "10",
+          "label": "Switch",
+          "position": {
+            "x": -525.5496035652959,
+            "y": 563.8268541238401
+          },
+          "class": "light",
+          "style": {
+            "width": "120px",
+            "height": "40px",
+            "textAlign": "center",
+            "borderColor": "orange"
+          },
+          "selected": false
+        }
+      },
+      {
+        "id": "vueflow__edge-2222__handle-bottom-1111__handle-top",
+        "source": "22",
+        "sourceHandle": "22__handle-bottom",
+        "target": "11",
+        "targetHandle": "11__handle-top",
+        "z": 0,
+        "sourceX": 0,
+        "sourceY": 0,
+        "targetX": 0,
+        "targetY": 0,
+        "sourceNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "22__handle-bottom",
+                "position": "bottom",
+                "x": 72.0000178306279,
+                "y": 36.99997982270644,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "22__handle-top",
+                "position": "top",
+                "x": 72.0000178306279,
+                "y": -3.0000117455384983,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": -43.17106413709047,
+            "y": 446.44935909803803,
+            "z": 0
+          },
+          "id": "22",
+          "label": "BMS2",
+          "position": {
+            "x": -43.17106413709047,
+            "y": 446.44935909803803
+          },
+          "class": "light",
+          "selected": false
+        },
+        "targetNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 120,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "11__handle-bottom",
+                "position": "bottom",
+                "x": 56.99995910293541,
+                "y": 36.99994681491943,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "11__handle-top",
+                "position": "top",
+                "x": 56.99995910293541,
+                "y": -3.0000117455384983,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": -178.23845015255068,
+            "y": 563.212941477835,
+            "z": 0
+          },
+          "id": "11",
+          "label": "Switch 2",
+          "position": {
+            "x": -178.23845015255068,
+            "y": 563.212941477835
+          },
+          "class": "light",
+          "style": {
+            "width": "120px",
+            "height": "40px",
+            "textAlign": "center",
+            "borderColor": "orange"
+          },
+          "selected": false
+        }
+      },
+      {
+        "id": "vueflow__edge-2323__handle-bottom-1313__handle-top",
+        "source": "23",
+        "sourceHandle": "23__handle-bottom",
+        "target": "13",
+        "targetHandle": "13__handle-top",
+        "z": 0,
+        "sourceX": 0,
+        "sourceY": 0,
+        "targetX": 0,
+        "targetY": 0,
+        "sourceNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "23__handle-bottom",
+                "position": "bottom",
+                "x": 71.99995181505388,
+                "y": 36.99997982270644,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "23__handle-top",
+                "position": "top",
+                "x": 71.99995181505388,
+                "y": -3.0000117455384983,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": 286.8270183683387,
+            "y": 445.9457732893484,
+            "z": 0
+          },
+          "id": "23",
+          "label": "BMS3",
+          "position": {
+            "x": 286.8270183683387,
+            "y": 445.9457732893484
+          },
+          "class": "light",
+          "selected": false
+        },
+        "targetNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 120,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "13__handle-bottom",
+                "position": "bottom",
+                "x": 56.99995910293541,
+                "y": 37.000012830493446,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "13__handle-top",
+                "position": "top",
+                "x": 56.99995910293541,
+                "y": -3.0000117455384983,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": 551.0578891384573,
+            "y": 559.4206242016425,
+            "z": 0
+          },
+          "id": "13",
+          "label": "Switch 3",
+          "position": {
+            "x": 551.0578891384573,
+            "y": 559.4206242016425
+          },
+          "class": "light",
+          "style": {
+            "width": "120px",
+            "height": "40px",
+            "textAlign": "center",
+            "borderColor": "orange"
+          },
+          "selected": false
+        }
+      },
+      {
+        "id": "vueflow__edge-1010__handle-bottom-1111__handle-top",
+        "source": "10",
+        "sourceHandle": "10__handle-bottom",
+        "target": "11",
+        "targetHandle": "11__handle-top",
+        "z": 0,
+        "sourceX": 0,
+        "sourceY": 0,
+        "targetX": 0,
+        "targetY": 0,
+        "sourceNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 120,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "10__handle-bottom",
+                "position": "bottom",
+                "x": 57.000008614615915,
+                "y": 36.99994681491943,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "10__handle-top",
+                "position": "top",
+                "x": 57.000008614615915,
+                "y": -3.0000117455384983,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": -525.5496035652959,
+            "y": 563.8268541238401,
+            "z": 0
+          },
+          "id": "10",
+          "label": "Switch",
+          "position": {
+            "x": -525.5496035652959,
+            "y": 563.8268541238401
+          },
+          "class": "light",
+          "style": {
+            "width": "120px",
+            "height": "40px",
+            "textAlign": "center",
+            "borderColor": "orange"
+          },
+          "selected": false
+        },
+        "targetNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 120,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "11__handle-bottom",
+                "position": "bottom",
+                "x": 56.99995910293541,
+                "y": 36.99994681491943,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "11__handle-top",
+                "position": "top",
+                "x": 56.99995910293541,
+                "y": -3.0000117455384983,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": -178.23845015255068,
+            "y": 563.212941477835,
+            "z": 0
+          },
+          "id": "11",
+          "label": "Switch 2",
+          "position": {
+            "x": -178.23845015255068,
+            "y": 563.212941477835
+          },
+          "class": "light",
+          "style": {
+            "width": "120px",
+            "height": "40px",
+            "textAlign": "center",
+            "borderColor": "orange"
+          },
+          "selected": false
+        }
+      },
+      {
+        "id": "vueflow__edge-1111__handle-bottom-1313__handle-top",
+        "source": "11",
+        "sourceHandle": "11__handle-bottom",
+        "target": "13",
+        "targetHandle": "13__handle-top",
+        "z": 0,
+        "sourceX": 0,
+        "sourceY": 0,
+        "targetX": 0,
+        "targetY": 0,
+        "sourceNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 120,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "11__handle-bottom",
+                "position": "bottom",
+                "x": 56.99995910293541,
+                "y": 36.99994681491943,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "11__handle-top",
+                "position": "top",
+                "x": 56.99995910293541,
+                "y": -3.0000117455384983,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": -178.23845015255068,
+            "y": 563.212941477835,
+            "z": 0
+          },
+          "id": "11",
+          "label": "Switch 2",
+          "position": {
+            "x": -178.23845015255068,
+            "y": 563.212941477835
+          },
+          "class": "light",
+          "style": {
+            "width": "120px",
+            "height": "40px",
+            "textAlign": "center",
+            "borderColor": "orange"
+          },
+          "selected": false
+        },
+        "targetNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 120,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "13__handle-bottom",
+                "position": "bottom",
+                "x": 56.99995910293541,
+                "y": 37.000012830493446,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "13__handle-top",
+                "position": "top",
+                "x": 56.99995910293541,
+                "y": -3.0000117455384983,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": 551.0578891384573,
+            "y": 559.4206242016425,
+            "z": 0
+          },
+          "id": "13",
+          "label": "Switch 3",
+          "position": {
+            "x": 551.0578891384573,
+            "y": 559.4206242016425
+          },
+          "class": "light",
+          "style": {
+            "width": "120px",
+            "height": "40px",
+            "textAlign": "center",
+            "borderColor": "orange"
+          },
+          "selected": false
+        }
+      }
+    ],
+    "position": [
+      721.1848176551152,
+      -6.919144691860993
+    ],
+    "zoom": 0.9245569270686731
+  }

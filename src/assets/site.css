@@ -1,0 +1,421 @@
+﻿@import 'https://cdn.jsdelivr.net/npm/@braks/vue-flow@0.4.40/dist/style.css';
+@import 'https://cdn.jsdelivr.net/npm/@braks/vue-flow@0.4.40/dist/theme-default.css';
+
+html,
+body,
+#app {
+  /* margin: 0; */
+  /* height: 100%; */
+}
+
+#app {
+  /* text-transform: uppercase; */
+  /* font-family: 'JetBrains Mono', monospace; */
+  /* -webkit-font-smoothing: antialiased; */
+  /* -moz-osx-font-smoothing: grayscale; */
+  /* text-align: center; */
+  /* color: #2c3e50; */
+}
+
+.vue-flow__minimap {
+  transform: scale(75%);
+  transform-origin: bottom right;
+
+
+}
+
+
+.basicflow .vue-flow__node.dark{background:#1C1C1C;color:#fffffb}.basicflow .controls{position:absolute;left:10px;top:10px;z-index:4;display:flex;flex-wrap:wrap;justify-content:center;gap:8px}.basicflow .controls button{padding:5px;border-radius:5px;font-weight:500;-webkit-box-shadow:0px 5px 10px 0px rgba(0,0,0,.3);box-shadow:0 5px 10px #0000004d;cursor:pointer}.basicflow .controls button:hover{opacity:.8;transform:scale(105%);transition:.25s all ease}
+.siteTableHeader th {
+    background-color:black!important;
+    color : white;
+
+}
+.vue-flow__minimap {
+  transform: scale(75%);
+  transform-origin: bottom right;
+}
+
+.save__controls{position:absolute;left:10px;top:10px;z-index:4;font-size:12px}.save__controls button{margin-left:5px;padding:5px;border-radius:5px;font-weight:700;text-transform:uppercase;color:#fff;-webkit-box-shadow:0px 5px 10px 0px rgba(0,0,0,.3);box-shadow:0 5px 10px #0000004d;cursor:pointer}.save__controls button:hover{opacity:.8;transform:scale(105%);transition:.25s all ease-in-out}
+.card-wrapper {
+    padding: 5rem;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.el-menu-item a {
+    text-decoration: none;
+}
+.siteMinHeight {
+    min-height: calc(100vh - 60px);
+    margin-top: 60px !important;
+    /* padding-top: 10px; */
+    /* padding: 0px; */
+}
+
+#wrapper {
+    overflow-x: hidden;
+}
+
+#sidebar-wrapper {
+    min-height: calc(100vh - 60px);
+    margin-left: -15rem;
+    transition: margin 0.25s ease-out;
+}
+
+    #sidebar-wrapper .sidebar-heading {
+        padding: 0.875rem 1.25rem;
+        font-size: 1.2rem;
+    }
+
+    #sidebar-wrapper .list-group {
+        width: 15rem;
+    }
+
+#page-content-wrapper {
+    min-width: 100vw;
+}
+
+#wrapper.sb-sidenav-toggled #sidebar-wrapper {
+    margin-left: 0;
+}
+
+@media (min-width: 768px) {
+    #sidebar-wrapper {
+        margin-left: 0;
+    }
+
+    #page-content-wrapper {
+        min-width: 0;
+        width: 100%;
+    }
+
+    #wrapper.sb-sidenav-toggled #sidebar-wrapper {
+        margin-left: -15rem;
+    }
+}
+
+.side-menu {
+    
+    
+    width: 250px !important;
+}
+
+.fa {
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+}
+
+.el-menu
+{
+    border-right: unset!important;
+}
+
+.el-badge__content.is-fixed {
+    top: 5px !important;
+    right: calc(-3px + var(--el-badge-size)/ 2) !important;
+}
+
+
+/*DivTable*/
+.DivTable {
+    display: table;
+    text-align: center;
+    width: 60%;
+    margin: 10% auto 0;
+    border-collapse: separate;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.table_row {
+    display: table-row;
+}
+
+.theader {
+    display: table-row;
+}
+
+.table_header {
+    display: table-cell;
+    border-bottom: #ccc 1px solid;
+    border-top: #ccc 1px solid;
+    background: #bdbdbd;
+    color: #FFF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+
+    .table_header:first-child {
+        border-left: #ccc 1px solid;
+    }
+
+    .table_header:last-child {
+        border-right: #ccc 1px solid;
+    }
+
+.table_small {
+    display: table-cell;
+}
+
+.table_cell .el-button {
+    height:unset;
+}
+
+.table_row > .table_small > .table_cell:nth-child(odd) {
+    display: none;
+    background: #bdbdbd;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.table_row > .table_small > .table_cell {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: #5b5b5b;
+    border-bottom: #ccc 1px solid;
+}
+
+.table_row > .table_small:first-child > .table_cell {
+    border-left: #ccc 1px solid;
+}
+
+.table_row > .table_small:last-child > .table_cell {
+    border-right: #ccc 1px solid;
+}
+
+ 
+
+.table_row:nth-child(2n+3) {
+    background: #e9e9e9;
+}
+
+@media screen and (max-width: 900px) {
+    .DivTable {
+        width: 90%
+    }
+}
+/*rwd table*/
+@media (max-width: 576px) {
+    .RWDTable {
+        display: block;
+    }
+
+        .RWDTable thead {
+            display: none;
+        }
+
+        .RWDTable tbody {
+            display: table;
+            width:100%;
+        }
+
+        .RWDTable tr {
+            display: table-row-group;
+        }
+
+        .RWDTable td {
+            display: table-row;
+        }
+
+        .RWDTable td:before,
+        .RWDTable td > span {
+            display: table-cell;
+            padding: 7px 13px; /* optional */
+            border: 1px solid #e8e8e8; /* optional */
+        }
+
+        .RWDTable.table-striped > tbody > tr:nth-of-type(odd) > td:before,
+        .RWDTable.table-striped > tbody > tr:nth-of-type(odd) > td > span {
+            border-color: white; /* optional */
+        }
+
+        .RWDTable td:before {
+            content: attr(data-label);
+            font-weight:bolder; /* optional */
+        }
+
+        .RWDTable td:not(.align-start) > span {
+            vertical-align: middle; /* optional */
+        }
+}
+
+/*input file*/
+input[type="file"] {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.el-table--fit {
+    padding: 0!important;
+}
+ul li{
+  list-style: none;
+  cursor: pointer;
+}
+ul li:hover{
+  background-color: #FFF;
+  color:  #071E3D;
+}
+ul li::before{
+  background-color: #FFF;
+  color:  #071E3D;
+}
+
+ 
+.bg-lightGreen {
+    background-color: #67c23a;
+}
+
+.myBorder {
+    border:rgb(7,30,61) solid 2px;
+}
+
+.myError {
+    border: red solid 1px;
+    border-radius: 5px;
+}
+
+.myIcon {
+    height: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 25px;
+}
+
+.iconSolar {
+    background-image: url("@/assets/solar.svg") ;
+}
+
+.iconContainer {
+    background-image: url("@/assets/container.svg") ;
+}
+
+.iconSolarContainer {
+    background-image: url("@/assets/container-solar.svg") ;
+}
+
+.IcontTotalPower {
+    background-image: url("@/assets/IcontTotalPower.svg") ;
+}
+.IconTotalContent {
+    background-image: url("@/assets/IconTotalContent.svg") ;
+}
+.IconToday {
+    background-image: url("@/assets/IconTody.svg") ;
+}
+.IcontAllTime {
+    background-image: url("@/assets/IcontAllTime.svg") ;
+}
+.IconField {
+    background-image: url("@/assets/IconField.svg") ;
+}
+
+.el-carousel__arrow{
+    background-color: rgba(25,25,25,0.7);
+}
+
+.el-carousel__mask { 
+    opacity: 0.7!important;
+}
+
+.badge {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: 10px 15px;
+    border-radius: 0 0 0 20px;
+    /* font-size: 14px; */
+}
+
+
+.noErrorMargin .el-form-item {
+    margin: 0;
+}
+
+.el-calendar__body {
+    padding-bottom: 10px!important;
+}
+
+
+
+/* scrolling table begin */
+
+
+
+
+table.scrollBody thead, table.scrollBody tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;/* even columns width , fix width of table too*/
+    border-color: gainsboro;
+    border-width: 0.1px;
+}
+table.scrollBody tbody {
+  display: block;
+  overflow: auto;
+}
+/* width */
+table.scrollBody ::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+table.scrollBody ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px lightblue; 
+  /* border-radius: 10px; */
+}
+ 
+/* Handle */
+table.scrollBody ::-webkit-scrollbar-thumb {
+  background: grey; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+table.scrollBody ::-webkit-scrollbar-thumb:hover {
+  background: grey; 
+}
+/* scrolling table end */
+
+
+.bannerClass {
+    background-color: white;
+    height: 40px;
+    padding-top: 6px;
+    border-radius: 10px;
+    padding-bottom: 6px;
+}
+
+.tableHeaderStyle {
+    background: #071E3D!important;
+    color: white!important;
+    
+}
+
+.tableHeaderStyle .cell {
+    text-align: center;
+}
+
+.localMenu a {
+    text-decoration: none; color: #fff;
+}
+.localMenu li {
+    list-style:none; font-size:20px; font-weight:bold;
+}

@@ -1,0 +1,3779 @@
+{
+    "nodes": [
+      {
+        "type": "input",
+        "dimensions": {
+          "width": 150,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "1__handle-bottom",
+              "position": "bottom",
+              "x": 72.00003053625304,
+              "y": 36.999989027493186,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": 200,
+          "y": -150,
+          "z": 0
+        },
+        "id": "1",
+        "label": "台電端",
+        "position": {
+          "x": 200,
+          "y": -150
+        },
+        "class": "light"
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 40,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "2__handle-bottom",
+              "position": "bottom",
+              "x": 17.00001101919834,
+              "y": 36.999989027493186,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "2__handle-top",
+              "position": "top",
+              "x": 17.00001101919834,
+              "y": -3.0000127000930004,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": 255,
+          "y": -62.5,
+          "z": 0
+        },
+        "id": "2",
+        "label": "DS",
+        "position": {
+          "x": 255,
+          "y": -62.5
+        },
+        "class": "light p-0",
+        "style": {
+          "width": "40px",
+          "height": "40px",
+          "textAlign": "center",
+          "borderColor": "green"
+        }
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 150,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "3__handle-bottom",
+              "position": "bottom",
+              "x": 72.00003053625304,
+              "y": 36.999989027493186,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "3__handle-top",
+              "position": "top",
+              "x": 72.00003053625304,
+              "y": -2.999989844594752,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": 200,
+          "y": 25,
+          "z": 0
+        },
+        "id": "3",
+        "label": "MOF",
+        "position": {
+          "x": 200,
+          "y": 25
+        },
+        "class": "light",
+        "style": {
+          "borderColor": "#033f63"
+        },
+        "isParent": true
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 40,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "4__handle-bottom",
+              "position": "bottom",
+              "x": 17.00001101919834,
+              "y": 37.00003473848968,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "4__handle-top",
+              "position": "top",
+              "x": 17.00001101919834,
+              "y": -2.9999669890965035,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": 255,
+          "y": 112.5,
+          "z": 0
+        },
+        "id": "4",
+        "label": "CPT DS",
+        "position": {
+          "x": 255,
+          "y": 112.5
+        },
+        "class": "light p-0",
+        "style": {
+          "width": "40px",
+          "height": "40px",
+          "textAlign": "center",
+          "borderColor": "green"
+        }
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 150,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "5__handle-bottom",
+              "position": "bottom",
+              "x": 72.00003053625304,
+              "y": 36.999989027493186,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "5__handle-top",
+              "position": "top",
+              "x": 72.00003053625304,
+              "y": -3.0000127000930004,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": 200,
+          "y": 200,
+          "z": 0
+        },
+        "id": "5",
+        "label": "MVCB",
+        "position": {
+          "x": 200,
+          "y": 200
+        },
+        "class": "light",
+        "style": {
+          "borderColor": "green"
+        },
+        "isParent": true
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 150,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "6__handle-bottom",
+              "position": "bottom",
+              "x": 71.99998482525653,
+              "y": 37.00003473848968,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "6__handle-top",
+              "position": "top",
+              "x": 71.99998482525653,
+              "y": -2.9999669890965035,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": -600,
+          "y": 325,
+          "z": 0
+        },
+        "id": "6",
+        "label": "VCB1",
+        "position": {
+          "x": -600,
+          "y": 325
+        },
+        "class": "light",
+        "style": {
+          "borderColor": "green"
+        },
+        "isParent": true
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 150,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "7__handle-bottom",
+              "position": "bottom",
+              "x": 72.00003053625304,
+              "y": 37.00003473848968,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "7__handle-top",
+              "position": "top",
+              "x": 72.00003053625304,
+              "y": -2.9999669890965035,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": -100,
+          "y": 325,
+          "z": 0
+        },
+        "id": "7",
+        "label": "VCB2",
+        "position": {
+          "x": -100,
+          "y": 325
+        },
+        "class": "light",
+        "style": {
+          "borderColor": "green"
+        },
+        "isParent": true
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 150,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "8__handle-bottom",
+              "position": "bottom",
+              "x": 72.00003053625304,
+              "y": 37.00003473848968,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "8__handle-top",
+              "position": "top",
+              "x": 72.00003053625304,
+              "y": -2.9999669890965035,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": 400,
+          "y": 325,
+          "z": 0
+        },
+        "id": "8",
+        "label": "VCB3",
+        "position": {
+          "x": 400,
+          "y": 325
+        },
+        "class": "light",
+        "style": {
+          "borderColor": "green"
+        },
+        "isParent": true
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 150,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "9__handle-bottom",
+              "position": "bottom",
+              "x": 71.99993911426004,
+              "y": 37.00003473848968,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "9__handle-top",
+              "position": "top",
+              "x": 71.99993911426004,
+              "y": -2.9999669890965035,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": 900,
+          "y": 325,
+          "z": 0
+        },
+        "id": "9",
+        "label": "VCB4",
+        "position": {
+          "x": 900,
+          "y": 325
+        },
+        "class": "light",
+        "style": {
+          "borderColor": "green"
+        },
+        "isParent": true
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 40,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "10__handle-bottom",
+              "position": "bottom",
+              "x": 16.999988163700092,
+              "y": 37.00003473848968,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "10__handle-top",
+              "position": "top",
+              "x": 16.999988163700092,
+              "y": -3.0000127000930004,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": -545,
+          "y": 412.5,
+          "z": 0
+        },
+        "id": "10",
+        "label": "TR11",
+        "position": {
+          "x": -545,
+          "y": 412.5
+        },
+        "class": "light p-0",
+        "style": {
+          "width": "40px",
+          "height": "40px",
+          "borderRadius": "50%",
+          "textAlign": "center",
+          "borderColor": "orange"
+        }
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 40,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "11__handle-bottom",
+              "position": "bottom",
+              "x": 17.00005673019484,
+              "y": 37.00003473848968,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "11__handle-top",
+              "position": "top",
+              "x": 17.00005673019484,
+              "y": -3.0000127000930004,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": -45,
+          "y": 412.5,
+          "z": 0
+        },
+        "id": "11",
+        "label": "TR21",
+        "position": {
+          "x": -45,
+          "y": 412.5
+        },
+        "class": "light p-0",
+        "style": {
+          "width": "40px",
+          "height": "40px",
+          "borderRadius": "50%",
+          "textAlign": "center",
+          "borderColor": "orange"
+        }
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 40,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "12__handle-bottom",
+              "position": "bottom",
+              "x": 17.000102441191334,
+              "y": 37.00003473848968,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "12__handle-top",
+              "position": "top",
+              "x": 17.000102441191334,
+              "y": -3.0000127000930004,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": 455,
+          "y": 412.5,
+          "z": 0
+        },
+        "id": "12",
+        "label": "TR31",
+        "position": {
+          "x": 455,
+          "y": 412.5
+        },
+        "class": "light p-0",
+        "style": {
+          "width": "40px",
+          "height": "40px",
+          "borderRadius": "50%",
+          "textAlign": "center",
+          "borderColor": "orange"
+        }
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 40,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "13__handle-bottom",
+              "position": "bottom",
+              "x": 16.999919597205345,
+              "y": 37.00003473848968,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "13__handle-top",
+              "position": "top",
+              "x": 16.999919597205345,
+              "y": -3.0000127000930004,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": 955,
+          "y": 412.5,
+          "z": 0
+        },
+        "id": "13",
+        "label": "TR41",
+        "position": {
+          "x": 955,
+          "y": 412.5
+        },
+        "class": "light p-0",
+        "style": {
+          "width": "40px",
+          "height": "40px",
+          "borderRadius": "50%",
+          "textAlign": "center",
+          "borderColor": "orange"
+        }
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 150,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "14__handle-bottom",
+              "position": "bottom",
+              "x": 71.99998482525653,
+              "y": 37.00003473848968,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "14__handle-top",
+              "position": "top",
+              "x": 71.99998482525653,
+              "y": -2.9999212781000066,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": -600,
+          "y": 500,
+          "z": 0
+        },
+        "id": "14",
+        "label": "ACB1",
+        "position": {
+          "x": -600,
+          "y": 500
+        },
+        "class": "light",
+        "style": {
+          "borderColor": "green"
+        },
+        "isParent": true
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 150,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "15__handle-bottom",
+              "position": "bottom",
+              "x": 72.00003053625304,
+              "y": 37.00003473848968,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "15__handle-top",
+              "position": "top",
+              "x": 72.00003053625304,
+              "y": -2.9999212781000066,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": -100,
+          "y": 500,
+          "z": 0
+        },
+        "id": "15",
+        "label": "ACB2",
+        "position": {
+          "x": -100,
+          "y": 500
+        },
+        "class": "light",
+        "style": {
+          "borderColor": "green"
+        },
+        "isParent": true
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 150,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "16__handle-bottom",
+              "position": "bottom",
+              "x": 72.00003053625304,
+              "y": 37.00003473848968,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "16__handle-top",
+              "position": "top",
+              "x": 72.00003053625304,
+              "y": -2.9999212781000066,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": 400,
+          "y": 500,
+          "z": 0
+        },
+        "id": "16",
+        "label": "ACB3",
+        "position": {
+          "x": 400,
+          "y": 500
+        },
+        "class": "light",
+        "style": {
+          "borderColor": "green"
+        },
+        "isParent": true
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 150,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "17__handle-bottom",
+              "position": "bottom",
+              "x": 71.99993911426004,
+              "y": 37.00003473848968,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "17__handle-top",
+              "position": "top",
+              "x": 71.99993911426004,
+              "y": -2.9999212781000066,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": 900,
+          "y": 500,
+          "z": 0
+        },
+        "id": "17",
+        "label": "AUX",
+        "position": {
+          "x": 900,
+          "y": 500
+        },
+        "class": "light",
+        "style": {
+          "borderColor": "#033f63"
+        }
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 150,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "18__handle-bottom",
+              "position": "bottom",
+              "x": 71.99998482525653,
+              "y": 37.00003473848968,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "18__handle-top",
+              "position": "top",
+              "x": 71.99998482525653,
+              "y": -2.9999212781000066,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": -600,
+          "y": 600,
+          "z": 0
+        },
+        "id": "18",
+        "label": "PCS1",
+        "position": {
+          "x": -600,
+          "y": 600
+        },
+        "class": "light",
+        "style": {
+          "borderColor": "#033f63"
+        }
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 150,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "19__handle-bottom",
+              "position": "bottom",
+              "x": 72.00003053625304,
+              "y": 37.00003473848968,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "19__handle-top",
+              "position": "top",
+              "x": 72.00003053625304,
+              "y": -2.9999212781000066,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": -100,
+          "y": 600,
+          "z": 0
+        },
+        "id": "19",
+        "label": "PCS2",
+        "position": {
+          "x": -100,
+          "y": 600
+        },
+        "class": "light",
+        "style": {
+          "borderColor": "#033f63"
+        }
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 150,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "20__handle-bottom",
+              "position": "bottom",
+              "x": 72.00003053625304,
+              "y": 37.00003473848968,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "20__handle-top",
+              "position": "top",
+              "x": 72.00003053625304,
+              "y": -2.9999212781000066,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": 400,
+          "y": 600,
+          "z": 0
+        },
+        "id": "20",
+        "label": "PCS3",
+        "position": {
+          "x": 400,
+          "y": 600
+        },
+        "class": "light",
+        "style": {
+          "borderColor": "#033f63"
+        }
+      },
+      {
+        "type": "output",
+        "dimensions": {
+          "width": 150,
+          "height": 40
+        },
+        "handleBounds": {
+          "target": [
+            {
+              "id": "21__handle-top",
+              "position": "top",
+              "x": 71.99998482525653,
+              "y": -3.0000127000930004,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": -600,
+          "y": 700,
+          "z": 0
+        },
+        "id": "21",
+        "label": "ESS1",
+        "position": {
+          "x": -600,
+          "y": 700
+        },
+        "class": "light"
+      },
+      {
+        "type": "output",
+        "dimensions": {
+          "width": 150,
+          "height": 40
+        },
+        "handleBounds": {
+          "target": [
+            {
+              "id": "22__handle-top",
+              "position": "top",
+              "x": 72.00003053625304,
+              "y": -3.0000127000930004,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": -100,
+          "y": 700,
+          "z": 0
+        },
+        "id": "22",
+        "label": "ESS2",
+        "position": {
+          "x": -100,
+          "y": 700
+        },
+        "class": "light"
+      },
+      {
+        "type": "output",
+        "dimensions": {
+          "width": 150,
+          "height": 40
+        },
+        "handleBounds": {
+          "target": [
+            {
+              "id": "23__handle-top",
+              "position": "top",
+              "x": 72.00003053625304,
+              "y": -3.0000127000930004,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": 400,
+          "y": 700,
+          "z": 0
+        },
+        "id": "23",
+        "label": "ESS3",
+        "position": {
+          "x": 400,
+          "y": 700
+        },
+        "class": "light"
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 150,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "MOF_INFO__handle-bottom",
+              "position": "bottom",
+              "x": 71.99993911426004,
+              "y": 36.999989027493186,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "MOF_INFO__handle-top",
+              "position": "top",
+              "x": 71.99993911426004,
+              "y": -2.999989844594752,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": 360,
+          "y": 25,
+          "z": 0
+        },
+        "parentNode": "3",
+        "id": "MOF_INFO",
+        "label": "2890 kWh/110 kVARH",
+        "position": {
+          "x": 160,
+          "y": 0
+        },
+        "class": "light"
+      },
+      {
+        "type": "teleportable",
+        "dimensions": {
+          "width": 213,
+          "height": 136
+        },
+        "handleBounds": {},
+        "computedPosition": {
+          "x": 360,
+          "y": 105,
+          "z": 0
+        },
+        "parentNode": "5",
+        "id": "MVCB_INFO",
+        "label": "info",
+        "position": {
+          "x": 160,
+          "y": -95
+        },
+        "class": "light"
+      },
+      {
+        "type": "teleportable",
+        "dimensions": {
+          "width": 213,
+          "height": 136
+        },
+        "handleBounds": {},
+        "computedPosition": {
+          "x": -440,
+          "y": 300,
+          "z": 0
+        },
+        "parentNode": "6",
+        "id": "VCB1_INFO",
+        "label": "info",
+        "position": {
+          "x": 160,
+          "y": -25
+        },
+        "class": "light"
+      },
+      {
+        "type": "teleportable",
+        "dimensions": {
+          "width": 213,
+          "height": 136
+        },
+        "handleBounds": {},
+        "computedPosition": {
+          "x": 60,
+          "y": 300,
+          "z": 0
+        },
+        "parentNode": "7",
+        "id": "VCB2_INFO",
+        "label": "info",
+        "position": {
+          "x": 160,
+          "y": -25
+        },
+        "class": "light"
+      },
+      {
+        "type": "teleportable",
+        "dimensions": {
+          "width": 213,
+          "height": 136
+        },
+        "handleBounds": {},
+        "computedPosition": {
+          "x": 560,
+          "y": 300,
+          "z": 0
+        },
+        "parentNode": "8",
+        "id": "VCB3_INFO",
+        "label": "info",
+        "position": {
+          "x": 160,
+          "y": -25
+        },
+        "class": "light"
+      },
+      {
+        "type": "teleportable",
+        "dimensions": {
+          "width": 213,
+          "height": 136
+        },
+        "handleBounds": {},
+        "computedPosition": {
+          "x": 1060,
+          "y": 300,
+          "z": 0
+        },
+        "parentNode": "9",
+        "id": "VCB4_INFO",
+        "label": "info",
+        "position": {
+          "x": 160,
+          "y": -25
+        },
+        "class": "light"
+      },
+      {
+        "type": "teleportable",
+        "dimensions": {
+          "width": 213,
+          "height": 136
+        },
+        "handleBounds": {},
+        "computedPosition": {
+          "x": -440,
+          "y": 475,
+          "z": 0
+        },
+        "parentNode": "14",
+        "id": "ACB1_INFO",
+        "label": "info",
+        "position": {
+          "x": 160,
+          "y": -25
+        },
+        "class": "light"
+      },
+      {
+        "type": "teleportable",
+        "dimensions": {
+          "width": 213,
+          "height": 136
+        },
+        "handleBounds": {},
+        "computedPosition": {
+          "x": 60,
+          "y": 475,
+          "z": 0
+        },
+        "parentNode": "15",
+        "id": "ACB2_INFO",
+        "label": "info",
+        "position": {
+          "x": 160,
+          "y": -25
+        },
+        "class": "light"
+      },
+      {
+        "type": "teleportable",
+        "dimensions": {
+          "width": 213,
+          "height": 136
+        },
+        "handleBounds": {},
+        "computedPosition": {
+          "x": 560,
+          "y": 475,
+          "z": 0
+        },
+        "parentNode": "16",
+        "id": "ACB3_INFO",
+        "label": "info",
+        "position": {
+          "x": 160,
+          "y": -25
+        },
+        "class": "light"
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 150,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "24__handle-bottom",
+              "position": "bottom",
+              "x": 71.99998482525653,
+              "y": 36.999989027493186,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "24__handle-top",
+              "position": "top",
+              "x": 71.99998482525653,
+              "y": -2.999989844594752,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": -600,
+          "y": -50,
+          "z": 0
+        },
+        "id": "24",
+        "label": "台電頻率",
+        "position": {
+          "x": -600,
+          "y": -50
+        },
+        "class": "light"
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 150,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "25__handle-bottom",
+              "position": "bottom",
+              "x": 71.99998482525653,
+              "y": 36.999989027493186,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "25__handle-top",
+              "position": "top",
+              "x": 71.99998482525653,
+              "y": -2.999989844594752,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": -400,
+          "y": -50,
+          "z": 0
+        },
+        "id": "25",
+        "label": "整廠輸出/輸入",
+        "position": {
+          "x": -400,
+          "y": -50
+        },
+        "class": "light"
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 150,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "26__handle-bottom",
+              "position": "bottom",
+              "x": 71.99998482525653,
+              "y": 37.00003473848968,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "26__handle-top",
+              "position": "top",
+              "x": 71.99998482525653,
+              "y": -2.999989844594752,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": -400,
+          "y": 0,
+          "z": 0
+        },
+        "id": "26",
+        "label": "ESS1輸出/輸入",
+        "position": {
+          "x": -400,
+          "y": 0
+        },
+        "class": "light"
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 150,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "27__handle-bottom",
+              "position": "bottom",
+              "x": 71.99998482525653,
+              "y": 37.00001188299143,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "27__handle-top",
+              "position": "top",
+              "x": 71.99998482525653,
+              "y": -3.000035555591249,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": -400,
+          "y": 50,
+          "z": 0
+        },
+        "id": "27",
+        "label": "ESS2輸出/輸入",
+        "position": {
+          "x": -400,
+          "y": 50
+        },
+        "class": "light"
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 150,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "28__handle-bottom",
+              "position": "bottom",
+              "x": 71.99998482525653,
+              "y": 36.999989027493186,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "28__handle-top",
+              "position": "top",
+              "x": 71.99998482525653,
+              "y": -3.0000127000930004,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": -400,
+          "y": 100,
+          "z": 0
+        },
+        "id": "28",
+        "label": "ESS3輸出/輸入",
+        "position": {
+          "x": -400,
+          "y": 100
+        },
+        "class": "light"
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 150,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "29__handle-bottom",
+              "position": "bottom",
+              "x": 71.99998482525653,
+              "y": 36.999989027493186,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "29__handle-top",
+              "position": "top",
+              "x": 71.99998482525653,
+              "y": -3.0000127000930004,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": -400,
+          "y": 150,
+          "z": 0
+        },
+        "id": "29",
+        "label": "整廠功率因數",
+        "position": {
+          "x": -400,
+          "y": 150
+        },
+        "class": "light"
+      },
+      {
+        "type": "default",
+        "dimensions": {
+          "width": 150,
+          "height": 40
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": "30__handle-bottom",
+              "position": "bottom",
+              "x": 71.99998482525653,
+              "y": 36.999989027493186,
+              "width": 6,
+              "height": 6
+            }
+          ],
+          "target": [
+            {
+              "id": "30__handle-top",
+              "position": "top",
+              "x": 71.99998482525653,
+              "y": -3.0000127000930004,
+              "width": 6,
+              "height": 6
+            }
+          ]
+        },
+        "computedPosition": {
+          "x": -400,
+          "y": 200,
+          "z": 0
+        },
+        "id": "30",
+        "label": "淨計量電能消失",
+        "position": {
+          "x": -400,
+          "y": 200
+        },
+        "class": "light"
+      }
+    ],
+    "edges": [
+      {
+        "id": "e1-2",
+        "type": "smoothstep",
+        "source": "1",
+        "target": "2",
+        "animated": true,
+        "style": {
+          "stroke": "#3A86FF"
+        },
+        "z": 0,
+        "sourceX": 0,
+        "sourceY": 0,
+        "targetX": 0,
+        "targetY": 0,
+        "sourceNode": {
+          "type": "input",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "1__handle-bottom",
+                "position": "bottom",
+                "x": 72.00003053625304,
+                "y": 36.999989027493186,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": 200,
+            "y": -150,
+            "z": 0
+          },
+          "id": "1",
+          "label": "台電端",
+          "position": {
+            "x": 200,
+            "y": -150
+          },
+          "class": "light"
+        },
+        "targetNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 40,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "2__handle-bottom",
+                "position": "bottom",
+                "x": 17.00001101919834,
+                "y": 36.999989027493186,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "2__handle-top",
+                "position": "top",
+                "x": 17.00001101919834,
+                "y": -3.0000127000930004,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": 255,
+            "y": -62.5,
+            "z": 0
+          },
+          "id": "2",
+          "label": "DS",
+          "position": {
+            "x": 255,
+            "y": -62.5
+          },
+          "class": "light p-0",
+          "style": {
+            "width": "40px",
+            "height": "40px",
+            "textAlign": "center",
+            "borderColor": "green"
+          }
+        }
+      },
+      {
+        "id": "e2-3",
+        "type": "smoothstep",
+        "source": "2",
+        "target": "3",
+        "animated": true,
+        "style": {
+          "stroke": "#3A86FF"
+        },
+        "z": 0,
+        "sourceX": 0,
+        "sourceY": 0,
+        "targetX": 0,
+        "targetY": 0,
+        "sourceNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 40,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "2__handle-bottom",
+                "position": "bottom",
+                "x": 17.00001101919834,
+                "y": 36.999989027493186,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "2__handle-top",
+                "position": "top",
+                "x": 17.00001101919834,
+                "y": -3.0000127000930004,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": 255,
+            "y": -62.5,
+            "z": 0
+          },
+          "id": "2",
+          "label": "DS",
+          "position": {
+            "x": 255,
+            "y": -62.5
+          },
+          "class": "light p-0",
+          "style": {
+            "width": "40px",
+            "height": "40px",
+            "textAlign": "center",
+            "borderColor": "green"
+          }
+        },
+        "targetNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "3__handle-bottom",
+                "position": "bottom",
+                "x": 72.00003053625304,
+                "y": 36.999989027493186,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "3__handle-top",
+                "position": "top",
+                "x": 72.00003053625304,
+                "y": -2.999989844594752,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": 200,
+            "y": 25,
+            "z": 0
+          },
+          "id": "3",
+          "label": "MOF",
+          "position": {
+            "x": 200,
+            "y": 25
+          },
+          "class": "light",
+          "style": {
+            "borderColor": "#033f63"
+          },
+          "isParent": true
+        }
+      },
+      {
+        "id": "e3-4",
+        "type": "smoothstep",
+        "source": "3",
+        "target": "4",
+        "animated": true,
+        "style": {
+          "stroke": "#3A86FF"
+        },
+        "z": 0,
+        "sourceX": 0,
+        "sourceY": 0,
+        "targetX": 0,
+        "targetY": 0,
+        "sourceNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "3__handle-bottom",
+                "position": "bottom",
+                "x": 72.00003053625304,
+                "y": 36.999989027493186,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "3__handle-top",
+                "position": "top",
+                "x": 72.00003053625304,
+                "y": -2.999989844594752,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": 200,
+            "y": 25,
+            "z": 0
+          },
+          "id": "3",
+          "label": "MOF",
+          "position": {
+            "x": 200,
+            "y": 25
+          },
+          "class": "light",
+          "style": {
+            "borderColor": "#033f63"
+          },
+          "isParent": true
+        },
+        "targetNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 40,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "4__handle-bottom",
+                "position": "bottom",
+                "x": 17.00001101919834,
+                "y": 37.00003473848968,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "4__handle-top",
+                "position": "top",
+                "x": 17.00001101919834,
+                "y": -2.9999669890965035,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": 255,
+            "y": 112.5,
+            "z": 0
+          },
+          "id": "4",
+          "label": "CPT DS",
+          "position": {
+            "x": 255,
+            "y": 112.5
+          },
+          "class": "light p-0",
+          "style": {
+            "width": "40px",
+            "height": "40px",
+            "textAlign": "center",
+            "borderColor": "green"
+          }
+        }
+      },
+      {
+        "id": "e4-5",
+        "type": "smoothstep",
+        "source": "4",
+        "target": "5",
+        "animated": true,
+        "style": {
+          "stroke": "#3A86FF"
+        },
+        "z": 0,
+        "sourceX": 0,
+        "sourceY": 0,
+        "targetX": 0,
+        "targetY": 0,
+        "sourceNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 40,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "4__handle-bottom",
+                "position": "bottom",
+                "x": 17.00001101919834,
+                "y": 37.00003473848968,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "4__handle-top",
+                "position": "top",
+                "x": 17.00001101919834,
+                "y": -2.9999669890965035,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": 255,
+            "y": 112.5,
+            "z": 0
+          },
+          "id": "4",
+          "label": "CPT DS",
+          "position": {
+            "x": 255,
+            "y": 112.5
+          },
+          "class": "light p-0",
+          "style": {
+            "width": "40px",
+            "height": "40px",
+            "textAlign": "center",
+            "borderColor": "green"
+          }
+        },
+        "targetNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "5__handle-bottom",
+                "position": "bottom",
+                "x": 72.00003053625304,
+                "y": 36.999989027493186,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "5__handle-top",
+                "position": "top",
+                "x": 72.00003053625304,
+                "y": -3.0000127000930004,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": 200,
+            "y": 200,
+            "z": 0
+          },
+          "id": "5",
+          "label": "MVCB",
+          "position": {
+            "x": 200,
+            "y": 200
+          },
+          "class": "light",
+          "style": {
+            "borderColor": "green"
+          },
+          "isParent": true
+        }
+      },
+      {
+        "id": "e5-6",
+        "type": "smoothstep",
+        "source": "5",
+        "target": "6",
+        "animated": true,
+        "style": {
+          "stroke": "#3A86FF"
+        },
+        "z": 0,
+        "sourceX": 0,
+        "sourceY": 0,
+        "targetX": 0,
+        "targetY": 0,
+        "sourceNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "5__handle-bottom",
+                "position": "bottom",
+                "x": 72.00003053625304,
+                "y": 36.999989027493186,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "5__handle-top",
+                "position": "top",
+                "x": 72.00003053625304,
+                "y": -3.0000127000930004,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": 200,
+            "y": 200,
+            "z": 0
+          },
+          "id": "5",
+          "label": "MVCB",
+          "position": {
+            "x": 200,
+            "y": 200
+          },
+          "class": "light",
+          "style": {
+            "borderColor": "green"
+          },
+          "isParent": true
+        },
+        "targetNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "6__handle-bottom",
+                "position": "bottom",
+                "x": 71.99998482525653,
+                "y": 37.00003473848968,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "6__handle-top",
+                "position": "top",
+                "x": 71.99998482525653,
+                "y": -2.9999669890965035,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": -600,
+            "y": 325,
+            "z": 0
+          },
+          "id": "6",
+          "label": "VCB1",
+          "position": {
+            "x": -600,
+            "y": 325
+          },
+          "class": "light",
+          "style": {
+            "borderColor": "green"
+          },
+          "isParent": true
+        }
+      },
+      {
+        "id": "e5-7",
+        "type": "smoothstep",
+        "source": "5",
+        "target": "7",
+        "animated": true,
+        "style": {
+          "stroke": "#3A86FF"
+        },
+        "z": 0,
+        "sourceX": 0,
+        "sourceY": 0,
+        "targetX": 0,
+        "targetY": 0,
+        "sourceNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "5__handle-bottom",
+                "position": "bottom",
+                "x": 72.00003053625304,
+                "y": 36.999989027493186,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "5__handle-top",
+                "position": "top",
+                "x": 72.00003053625304,
+                "y": -3.0000127000930004,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": 200,
+            "y": 200,
+            "z": 0
+          },
+          "id": "5",
+          "label": "MVCB",
+          "position": {
+            "x": 200,
+            "y": 200
+          },
+          "class": "light",
+          "style": {
+            "borderColor": "green"
+          },
+          "isParent": true
+        },
+        "targetNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "7__handle-bottom",
+                "position": "bottom",
+                "x": 72.00003053625304,
+                "y": 37.00003473848968,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "7__handle-top",
+                "position": "top",
+                "x": 72.00003053625304,
+                "y": -2.9999669890965035,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": -100,
+            "y": 325,
+            "z": 0
+          },
+          "id": "7",
+          "label": "VCB2",
+          "position": {
+            "x": -100,
+            "y": 325
+          },
+          "class": "light",
+          "style": {
+            "borderColor": "green"
+          },
+          "isParent": true
+        }
+      },
+      {
+        "id": "e5-8",
+        "type": "smoothstep",
+        "source": "5",
+        "target": "8",
+        "animated": true,
+        "style": {
+          "stroke": "#3A86FF"
+        },
+        "z": 0,
+        "sourceX": 0,
+        "sourceY": 0,
+        "targetX": 0,
+        "targetY": 0,
+        "sourceNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "5__handle-bottom",
+                "position": "bottom",
+                "x": 72.00003053625304,
+                "y": 36.999989027493186,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "5__handle-top",
+                "position": "top",
+                "x": 72.00003053625304,
+                "y": -3.0000127000930004,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": 200,
+            "y": 200,
+            "z": 0
+          },
+          "id": "5",
+          "label": "MVCB",
+          "position": {
+            "x": 200,
+            "y": 200
+          },
+          "class": "light",
+          "style": {
+            "borderColor": "green"
+          },
+          "isParent": true
+        },
+        "targetNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "8__handle-bottom",
+                "position": "bottom",
+                "x": 72.00003053625304,
+                "y": 37.00003473848968,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "8__handle-top",
+                "position": "top",
+                "x": 72.00003053625304,
+                "y": -2.9999669890965035,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": 400,
+            "y": 325,
+            "z": 0
+          },
+          "id": "8",
+          "label": "VCB3",
+          "position": {
+            "x": 400,
+            "y": 325
+          },
+          "class": "light",
+          "style": {
+            "borderColor": "green"
+          },
+          "isParent": true
+        }
+      },
+      {
+        "id": "e5-9",
+        "type": "smoothstep",
+        "source": "5",
+        "target": "9",
+        "animated": true,
+        "style": {
+          "stroke": "#3A86FF"
+        },
+        "z": 0,
+        "sourceX": 0,
+        "sourceY": 0,
+        "targetX": 0,
+        "targetY": 0,
+        "sourceNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "5__handle-bottom",
+                "position": "bottom",
+                "x": 72.00003053625304,
+                "y": 36.999989027493186,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "5__handle-top",
+                "position": "top",
+                "x": 72.00003053625304,
+                "y": -3.0000127000930004,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": 200,
+            "y": 200,
+            "z": 0
+          },
+          "id": "5",
+          "label": "MVCB",
+          "position": {
+            "x": 200,
+            "y": 200
+          },
+          "class": "light",
+          "style": {
+            "borderColor": "green"
+          },
+          "isParent": true
+        },
+        "targetNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "9__handle-bottom",
+                "position": "bottom",
+                "x": 71.99993911426004,
+                "y": 37.00003473848968,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "9__handle-top",
+                "position": "top",
+                "x": 71.99993911426004,
+                "y": -2.9999669890965035,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": 900,
+            "y": 325,
+            "z": 0
+          },
+          "id": "9",
+          "label": "VCB4",
+          "position": {
+            "x": 900,
+            "y": 325
+          },
+          "class": "light",
+          "style": {
+            "borderColor": "green"
+          },
+          "isParent": true
+        }
+      },
+      {
+        "id": "e6-10",
+        "type": "smoothstep",
+        "source": "6",
+        "target": "10",
+        "animated": true,
+        "style": {
+          "stroke": "#3A86FF"
+        },
+        "z": 0,
+        "sourceX": 0,
+        "sourceY": 0,
+        "targetX": 0,
+        "targetY": 0,
+        "sourceNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "6__handle-bottom",
+                "position": "bottom",
+                "x": 71.99998482525653,
+                "y": 37.00003473848968,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "6__handle-top",
+                "position": "top",
+                "x": 71.99998482525653,
+                "y": -2.9999669890965035,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": -600,
+            "y": 325,
+            "z": 0
+          },
+          "id": "6",
+          "label": "VCB1",
+          "position": {
+            "x": -600,
+            "y": 325
+          },
+          "class": "light",
+          "style": {
+            "borderColor": "green"
+          },
+          "isParent": true
+        },
+        "targetNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 40,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "10__handle-bottom",
+                "position": "bottom",
+                "x": 16.999988163700092,
+                "y": 37.00003473848968,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "10__handle-top",
+                "position": "top",
+                "x": 16.999988163700092,
+                "y": -3.0000127000930004,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": -545,
+            "y": 412.5,
+            "z": 0
+          },
+          "id": "10",
+          "label": "TR11",
+          "position": {
+            "x": -545,
+            "y": 412.5
+          },
+          "class": "light p-0",
+          "style": {
+            "width": "40px",
+            "height": "40px",
+            "borderRadius": "50%",
+            "textAlign": "center",
+            "borderColor": "orange"
+          }
+        }
+      },
+      {
+        "id": "e7-11",
+        "type": "smoothstep",
+        "source": "7",
+        "target": "11",
+        "animated": true,
+        "style": {
+          "stroke": "#3A86FF"
+        },
+        "z": 0,
+        "sourceX": 0,
+        "sourceY": 0,
+        "targetX": 0,
+        "targetY": 0,
+        "sourceNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "7__handle-bottom",
+                "position": "bottom",
+                "x": 72.00003053625304,
+                "y": 37.00003473848968,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "7__handle-top",
+                "position": "top",
+                "x": 72.00003053625304,
+                "y": -2.9999669890965035,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": -100,
+            "y": 325,
+            "z": 0
+          },
+          "id": "7",
+          "label": "VCB2",
+          "position": {
+            "x": -100,
+            "y": 325
+          },
+          "class": "light",
+          "style": {
+            "borderColor": "green"
+          },
+          "isParent": true
+        },
+        "targetNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 40,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "11__handle-bottom",
+                "position": "bottom",
+                "x": 17.00005673019484,
+                "y": 37.00003473848968,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "11__handle-top",
+                "position": "top",
+                "x": 17.00005673019484,
+                "y": -3.0000127000930004,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": -45,
+            "y": 412.5,
+            "z": 0
+          },
+          "id": "11",
+          "label": "TR21",
+          "position": {
+            "x": -45,
+            "y": 412.5
+          },
+          "class": "light p-0",
+          "style": {
+            "width": "40px",
+            "height": "40px",
+            "borderRadius": "50%",
+            "textAlign": "center",
+            "borderColor": "orange"
+          }
+        }
+      },
+      {
+        "id": "e8-12",
+        "type": "smoothstep",
+        "source": "8",
+        "target": "12",
+        "animated": true,
+        "style": {
+          "stroke": "#3A86FF"
+        },
+        "z": 0,
+        "sourceX": 0,
+        "sourceY": 0,
+        "targetX": 0,
+        "targetY": 0,
+        "sourceNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "8__handle-bottom",
+                "position": "bottom",
+                "x": 72.00003053625304,
+                "y": 37.00003473848968,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "8__handle-top",
+                "position": "top",
+                "x": 72.00003053625304,
+                "y": -2.9999669890965035,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": 400,
+            "y": 325,
+            "z": 0
+          },
+          "id": "8",
+          "label": "VCB3",
+          "position": {
+            "x": 400,
+            "y": 325
+          },
+          "class": "light",
+          "style": {
+            "borderColor": "green"
+          },
+          "isParent": true
+        },
+        "targetNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 40,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "12__handle-bottom",
+                "position": "bottom",
+                "x": 17.000102441191334,
+                "y": 37.00003473848968,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "12__handle-top",
+                "position": "top",
+                "x": 17.000102441191334,
+                "y": -3.0000127000930004,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": 455,
+            "y": 412.5,
+            "z": 0
+          },
+          "id": "12",
+          "label": "TR31",
+          "position": {
+            "x": 455,
+            "y": 412.5
+          },
+          "class": "light p-0",
+          "style": {
+            "width": "40px",
+            "height": "40px",
+            "borderRadius": "50%",
+            "textAlign": "center",
+            "borderColor": "orange"
+          }
+        }
+      },
+      {
+        "id": "e9-13",
+        "type": "smoothstep",
+        "source": "9",
+        "target": "13",
+        "animated": true,
+        "style": {
+          "stroke": "#3A86FF"
+        },
+        "z": 0,
+        "sourceX": 0,
+        "sourceY": 0,
+        "targetX": 0,
+        "targetY": 0,
+        "sourceNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "9__handle-bottom",
+                "position": "bottom",
+                "x": 71.99993911426004,
+                "y": 37.00003473848968,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "9__handle-top",
+                "position": "top",
+                "x": 71.99993911426004,
+                "y": -2.9999669890965035,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": 900,
+            "y": 325,
+            "z": 0
+          },
+          "id": "9",
+          "label": "VCB4",
+          "position": {
+            "x": 900,
+            "y": 325
+          },
+          "class": "light",
+          "style": {
+            "borderColor": "green"
+          },
+          "isParent": true
+        },
+        "targetNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 40,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "13__handle-bottom",
+                "position": "bottom",
+                "x": 16.999919597205345,
+                "y": 37.00003473848968,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "13__handle-top",
+                "position": "top",
+                "x": 16.999919597205345,
+                "y": -3.0000127000930004,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": 955,
+            "y": 412.5,
+            "z": 0
+          },
+          "id": "13",
+          "label": "TR41",
+          "position": {
+            "x": 955,
+            "y": 412.5
+          },
+          "class": "light p-0",
+          "style": {
+            "width": "40px",
+            "height": "40px",
+            "borderRadius": "50%",
+            "textAlign": "center",
+            "borderColor": "orange"
+          }
+        }
+      },
+      {
+        "id": "e10-14",
+        "type": "smoothstep",
+        "source": "10",
+        "target": "14",
+        "animated": true,
+        "style": {
+          "stroke": "#3A86FF"
+        },
+        "z": 0,
+        "sourceX": 0,
+        "sourceY": 0,
+        "targetX": 0,
+        "targetY": 0,
+        "sourceNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 40,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "10__handle-bottom",
+                "position": "bottom",
+                "x": 16.999988163700092,
+                "y": 37.00003473848968,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "10__handle-top",
+                "position": "top",
+                "x": 16.999988163700092,
+                "y": -3.0000127000930004,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": -545,
+            "y": 412.5,
+            "z": 0
+          },
+          "id": "10",
+          "label": "TR11",
+          "position": {
+            "x": -545,
+            "y": 412.5
+          },
+          "class": "light p-0",
+          "style": {
+            "width": "40px",
+            "height": "40px",
+            "borderRadius": "50%",
+            "textAlign": "center",
+            "borderColor": "orange"
+          }
+        },
+        "targetNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "14__handle-bottom",
+                "position": "bottom",
+                "x": 71.99998482525653,
+                "y": 37.00003473848968,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "14__handle-top",
+                "position": "top",
+                "x": 71.99998482525653,
+                "y": -2.9999212781000066,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": -600,
+            "y": 500,
+            "z": 0
+          },
+          "id": "14",
+          "label": "ACB1",
+          "position": {
+            "x": -600,
+            "y": 500
+          },
+          "class": "light",
+          "style": {
+            "borderColor": "green"
+          },
+          "isParent": true
+        }
+      },
+      {
+        "id": "e11-15",
+        "type": "smoothstep",
+        "source": "11",
+        "target": "15",
+        "animated": true,
+        "style": {
+          "stroke": "#3A86FF"
+        },
+        "z": 0,
+        "sourceX": 0,
+        "sourceY": 0,
+        "targetX": 0,
+        "targetY": 0,
+        "sourceNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 40,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "11__handle-bottom",
+                "position": "bottom",
+                "x": 17.00005673019484,
+                "y": 37.00003473848968,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "11__handle-top",
+                "position": "top",
+                "x": 17.00005673019484,
+                "y": -3.0000127000930004,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": -45,
+            "y": 412.5,
+            "z": 0
+          },
+          "id": "11",
+          "label": "TR21",
+          "position": {
+            "x": -45,
+            "y": 412.5
+          },
+          "class": "light p-0",
+          "style": {
+            "width": "40px",
+            "height": "40px",
+            "borderRadius": "50%",
+            "textAlign": "center",
+            "borderColor": "orange"
+          }
+        },
+        "targetNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "15__handle-bottom",
+                "position": "bottom",
+                "x": 72.00003053625304,
+                "y": 37.00003473848968,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "15__handle-top",
+                "position": "top",
+                "x": 72.00003053625304,
+                "y": -2.9999212781000066,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": -100,
+            "y": 500,
+            "z": 0
+          },
+          "id": "15",
+          "label": "ACB2",
+          "position": {
+            "x": -100,
+            "y": 500
+          },
+          "class": "light",
+          "style": {
+            "borderColor": "green"
+          },
+          "isParent": true
+        }
+      },
+      {
+        "id": "e12-16",
+        "type": "smoothstep",
+        "source": "12",
+        "target": "16",
+        "animated": true,
+        "style": {
+          "stroke": "#3A86FF"
+        },
+        "z": 0,
+        "sourceX": 0,
+        "sourceY": 0,
+        "targetX": 0,
+        "targetY": 0,
+        "sourceNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 40,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "12__handle-bottom",
+                "position": "bottom",
+                "x": 17.000102441191334,
+                "y": 37.00003473848968,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "12__handle-top",
+                "position": "top",
+                "x": 17.000102441191334,
+                "y": -3.0000127000930004,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": 455,
+            "y": 412.5,
+            "z": 0
+          },
+          "id": "12",
+          "label": "TR31",
+          "position": {
+            "x": 455,
+            "y": 412.5
+          },
+          "class": "light p-0",
+          "style": {
+            "width": "40px",
+            "height": "40px",
+            "borderRadius": "50%",
+            "textAlign": "center",
+            "borderColor": "orange"
+          }
+        },
+        "targetNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "16__handle-bottom",
+                "position": "bottom",
+                "x": 72.00003053625304,
+                "y": 37.00003473848968,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "16__handle-top",
+                "position": "top",
+                "x": 72.00003053625304,
+                "y": -2.9999212781000066,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": 400,
+            "y": 500,
+            "z": 0
+          },
+          "id": "16",
+          "label": "ACB3",
+          "position": {
+            "x": 400,
+            "y": 500
+          },
+          "class": "light",
+          "style": {
+            "borderColor": "green"
+          },
+          "isParent": true
+        }
+      },
+      {
+        "id": "e13-17",
+        "type": "smoothstep",
+        "source": "13",
+        "target": "17",
+        "animated": true,
+        "style": {
+          "stroke": "#3A86FF"
+        },
+        "z": 0,
+        "sourceX": 0,
+        "sourceY": 0,
+        "targetX": 0,
+        "targetY": 0,
+        "sourceNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 40,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "13__handle-bottom",
+                "position": "bottom",
+                "x": 16.999919597205345,
+                "y": 37.00003473848968,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "13__handle-top",
+                "position": "top",
+                "x": 16.999919597205345,
+                "y": -3.0000127000930004,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": 955,
+            "y": 412.5,
+            "z": 0
+          },
+          "id": "13",
+          "label": "TR41",
+          "position": {
+            "x": 955,
+            "y": 412.5
+          },
+          "class": "light p-0",
+          "style": {
+            "width": "40px",
+            "height": "40px",
+            "borderRadius": "50%",
+            "textAlign": "center",
+            "borderColor": "orange"
+          }
+        },
+        "targetNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "17__handle-bottom",
+                "position": "bottom",
+                "x": 71.99993911426004,
+                "y": 37.00003473848968,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "17__handle-top",
+                "position": "top",
+                "x": 71.99993911426004,
+                "y": -2.9999212781000066,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": 900,
+            "y": 500,
+            "z": 0
+          },
+          "id": "17",
+          "label": "AUX",
+          "position": {
+            "x": 900,
+            "y": 500
+          },
+          "class": "light",
+          "style": {
+            "borderColor": "#033f63"
+          }
+        }
+      },
+      {
+        "id": "e14-18",
+        "type": "smoothstep",
+        "source": "14",
+        "target": "18",
+        "animated": true,
+        "style": {
+          "stroke": "#3A86FF"
+        },
+        "z": 0,
+        "sourceX": 0,
+        "sourceY": 0,
+        "targetX": 0,
+        "targetY": 0,
+        "sourceNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "14__handle-bottom",
+                "position": "bottom",
+                "x": 71.99998482525653,
+                "y": 37.00003473848968,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "14__handle-top",
+                "position": "top",
+                "x": 71.99998482525653,
+                "y": -2.9999212781000066,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": -600,
+            "y": 500,
+            "z": 0
+          },
+          "id": "14",
+          "label": "ACB1",
+          "position": {
+            "x": -600,
+            "y": 500
+          },
+          "class": "light",
+          "style": {
+            "borderColor": "green"
+          },
+          "isParent": true
+        },
+        "targetNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "18__handle-bottom",
+                "position": "bottom",
+                "x": 71.99998482525653,
+                "y": 37.00003473848968,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "18__handle-top",
+                "position": "top",
+                "x": 71.99998482525653,
+                "y": -2.9999212781000066,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": -600,
+            "y": 600,
+            "z": 0
+          },
+          "id": "18",
+          "label": "PCS1",
+          "position": {
+            "x": -600,
+            "y": 600
+          },
+          "class": "light",
+          "style": {
+            "borderColor": "#033f63"
+          }
+        }
+      },
+      {
+        "id": "e15-19",
+        "type": "smoothstep",
+        "source": "15",
+        "target": "19",
+        "animated": true,
+        "style": {
+          "stroke": "#3A86FF"
+        },
+        "z": 0,
+        "sourceX": 0,
+        "sourceY": 0,
+        "targetX": 0,
+        "targetY": 0,
+        "sourceNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "15__handle-bottom",
+                "position": "bottom",
+                "x": 72.00003053625304,
+                "y": 37.00003473848968,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "15__handle-top",
+                "position": "top",
+                "x": 72.00003053625304,
+                "y": -2.9999212781000066,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": -100,
+            "y": 500,
+            "z": 0
+          },
+          "id": "15",
+          "label": "ACB2",
+          "position": {
+            "x": -100,
+            "y": 500
+          },
+          "class": "light",
+          "style": {
+            "borderColor": "green"
+          },
+          "isParent": true
+        },
+        "targetNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "19__handle-bottom",
+                "position": "bottom",
+                "x": 72.00003053625304,
+                "y": 37.00003473848968,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "19__handle-top",
+                "position": "top",
+                "x": 72.00003053625304,
+                "y": -2.9999212781000066,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": -100,
+            "y": 600,
+            "z": 0
+          },
+          "id": "19",
+          "label": "PCS2",
+          "position": {
+            "x": -100,
+            "y": 600
+          },
+          "class": "light",
+          "style": {
+            "borderColor": "#033f63"
+          }
+        }
+      },
+      {
+        "id": "e16-20",
+        "type": "smoothstep",
+        "source": "16",
+        "target": "20",
+        "animated": true,
+        "style": {
+          "stroke": "#3A86FF"
+        },
+        "z": 0,
+        "sourceX": 0,
+        "sourceY": 0,
+        "targetX": 0,
+        "targetY": 0,
+        "sourceNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "16__handle-bottom",
+                "position": "bottom",
+                "x": 72.00003053625304,
+                "y": 37.00003473848968,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "16__handle-top",
+                "position": "top",
+                "x": 72.00003053625304,
+                "y": -2.9999212781000066,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": 400,
+            "y": 500,
+            "z": 0
+          },
+          "id": "16",
+          "label": "ACB3",
+          "position": {
+            "x": 400,
+            "y": 500
+          },
+          "class": "light",
+          "style": {
+            "borderColor": "green"
+          },
+          "isParent": true
+        },
+        "targetNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "20__handle-bottom",
+                "position": "bottom",
+                "x": 72.00003053625304,
+                "y": 37.00003473848968,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "20__handle-top",
+                "position": "top",
+                "x": 72.00003053625304,
+                "y": -2.9999212781000066,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": 400,
+            "y": 600,
+            "z": 0
+          },
+          "id": "20",
+          "label": "PCS3",
+          "position": {
+            "x": 400,
+            "y": 600
+          },
+          "class": "light",
+          "style": {
+            "borderColor": "#033f63"
+          }
+        }
+      },
+      {
+        "id": "e18-21",
+        "type": "step",
+        "label": "充電",
+        "source": "18",
+        "target": "21",
+        "animated": true,
+        "style": {
+          "stroke": "#3A86FF"
+        },
+        "z": 0,
+        "sourceX": 0,
+        "sourceY": 0,
+        "targetX": 0,
+        "targetY": 0,
+        "sourceNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "18__handle-bottom",
+                "position": "bottom",
+                "x": 71.99998482525653,
+                "y": 37.00003473848968,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "18__handle-top",
+                "position": "top",
+                "x": 71.99998482525653,
+                "y": -2.9999212781000066,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": -600,
+            "y": 600,
+            "z": 0
+          },
+          "id": "18",
+          "label": "PCS1",
+          "position": {
+            "x": -600,
+            "y": 600
+          },
+          "class": "light",
+          "style": {
+            "borderColor": "#033f63"
+          }
+        },
+        "targetNode": {
+          "type": "output",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "target": [
+              {
+                "id": "21__handle-top",
+                "position": "top",
+                "x": 71.99998482525653,
+                "y": -3.0000127000930004,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": -600,
+            "y": 700,
+            "z": 0
+          },
+          "id": "21",
+          "label": "ESS1",
+          "position": {
+            "x": -600,
+            "y": 700
+          },
+          "class": "light"
+        }
+      },
+      {
+        "id": "e19-22",
+        "source": "19",
+        "target": "22",
+        "label": "充電",
+        "animated": true,
+        "markerEnd": "arrow",
+        "style": {
+          "stroke": "#3A86FF"
+        },
+        "z": 0,
+        "sourceX": 0,
+        "sourceY": 0,
+        "targetX": 0,
+        "targetY": 0,
+        "sourceNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "19__handle-bottom",
+                "position": "bottom",
+                "x": 72.00003053625304,
+                "y": 37.00003473848968,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "19__handle-top",
+                "position": "top",
+                "x": 72.00003053625304,
+                "y": -2.9999212781000066,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": -100,
+            "y": 600,
+            "z": 0
+          },
+          "id": "19",
+          "label": "PCS2",
+          "position": {
+            "x": -100,
+            "y": 600
+          },
+          "class": "light",
+          "style": {
+            "borderColor": "#033f63"
+          }
+        },
+        "targetNode": {
+          "type": "output",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "target": [
+              {
+                "id": "22__handle-top",
+                "position": "top",
+                "x": 72.00003053625304,
+                "y": -3.0000127000930004,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": -100,
+            "y": 700,
+            "z": 0
+          },
+          "id": "22",
+          "label": "ESS2",
+          "position": {
+            "x": -100,
+            "y": 700
+          },
+          "class": "light"
+        }
+      },
+      {
+        "id": "e20-23",
+        "source": "20",
+        "target": "23",
+        "label": "充電",
+        "animated": true,
+        "style": {
+          "stroke": "#3A86FF"
+        },
+        "z": 0,
+        "sourceX": 0,
+        "sourceY": 0,
+        "targetX": 0,
+        "targetY": 0,
+        "sourceNode": {
+          "type": "default",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "source": [
+              {
+                "id": "20__handle-bottom",
+                "position": "bottom",
+                "x": 72.00003053625304,
+                "y": 37.00003473848968,
+                "width": 6,
+                "height": 6
+              }
+            ],
+            "target": [
+              {
+                "id": "20__handle-top",
+                "position": "top",
+                "x": 72.00003053625304,
+                "y": -2.9999212781000066,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": 400,
+            "y": 600,
+            "z": 0
+          },
+          "id": "20",
+          "label": "PCS3",
+          "position": {
+            "x": 400,
+            "y": 600
+          },
+          "class": "light",
+          "style": {
+            "borderColor": "#033f63"
+          }
+        },
+        "targetNode": {
+          "type": "output",
+          "dimensions": {
+            "width": 150,
+            "height": 40
+          },
+          "handleBounds": {
+            "target": [
+              {
+                "id": "23__handle-top",
+                "position": "top",
+                "x": 72.00003053625304,
+                "y": -3.0000127000930004,
+                "width": 6,
+                "height": 6
+              }
+            ]
+          },
+          "computedPosition": {
+            "x": 400,
+            "y": 700,
+            "z": 0
+          },
+          "id": "23",
+          "label": "ESS3",
+          "position": {
+            "x": 400,
+            "y": 700
+          },
+          "class": "light"
+        }
+      }
+    ],
+    "position": [
+      534.9458871594002,
+      129.85210124903244
+    ]
+}
