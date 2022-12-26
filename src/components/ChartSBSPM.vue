@@ -92,7 +92,6 @@ import moment from 'moment';
               const vm = this;
               function MessageCallBack(SocketData) {
                 var data =  JSON.parse(SocketData);
-                debugger;
                 vm.RateData.push([data[0].frequency, data[0].ratio * 100]); 
                 vm.RateData = vm.RateData.splice(-10);
               }

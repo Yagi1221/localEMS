@@ -1,7 +1,7 @@
 <template>
   <div class="row m-0 p-0" v-loading="ChartDiv.ECIChart.Loading">
     <div class="  col  m-0 p-0 me-2 " >
-      <div :id="ChartDiv.ECIChartShow.Id"  style="width:100%;height:400px">
+      <div :id="ChartDiv.ECIChartShow.Id"  style="min-width:800px;width:100%;height:400px">
       </div>
     </div>
   </div>
@@ -417,6 +417,7 @@ export default {
     };
   },
   methods: {
+
     postCabinetESSCI(){
       const vm = this;
       // Plotly.purge(this.ChartDiv.ECIChart.Id);
@@ -443,6 +444,10 @@ export default {
           vm.ChartDiv.ECIChart.Loading = false;
         });	
     }, 
+    resizeChart() {
+      debugger;
+      this.Draw('ECIChartShow');
+    },
     Draw(ChartName) {
       const vm = this;
       vm.$nextTick(function() {

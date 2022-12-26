@@ -82,7 +82,7 @@ import moment from 'moment';
         methods: {  
           getChartData(SocketDataItem){
               var nowHour = ("0" + moment().hour()).substr(-2);
-              var beforeInd = SocketDataItem.bid_info.time.findIndex((x) => {return x == nowHour }) -1;
+              var beforeInd = SocketDataItem.bid_info.time.findIndex((x) => {return x == nowHour }) ;
               
               var BIDData = SocketDataItem.bid_info.y2.map((x,ind) => {
                 if (SocketDataItem.bid_info.is_abandon[ind]) {
@@ -108,6 +108,7 @@ import moment from 'moment';
                         };
                 }
               })
+              debugger;
               var SPSBPMData = SocketDataItem.bid_info.y1.map((x,ind) => {
                 if (ind <= beforeInd) {
                   return x * 100;
@@ -159,7 +160,7 @@ import moment from 'moment';
                     },
                     tooltip: {
                       valueFormatter: function (value) {
-                        return value?.toFixed(2) + ' %';
+                        return value ? value?.toFixed(2) + ' %' : "未執行";
                       }
                     },
                   },

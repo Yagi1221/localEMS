@@ -52,8 +52,8 @@
                 </ul>
               </div>
             </div>
-            <div class=" border-end rounded-3 p-3 col-7 me-3 " >
-              <CabinetESSCI :equipment_id="socketData?.rack_info?.map(x=> {return x.eq_id})" v-if="socketData?.rack_info.length" ></CabinetESSCI>
+            <div class=" border-end rounded-3 pt-3 col-7 " >
+              <CabinetESSCI ref="ESSCIChart" :equipment_id="socketData?.rack_info?.map(x=> {return x.eq_id})" v-if="socketData?.rack_info.length" ></CabinetESSCI>
             </div>
             <!-- 電池資訊 -->
             <div class="   col-2">
@@ -147,6 +147,9 @@ import ColorList from '@/JSON/ColorRange.json';
         watch: {
         },
         methods: {
+          resizeChart(){
+            this.$refs.ESSCIChart.resizeChart();
+          },
           ShowRackDetail(equipment_id , ind) {
             this.Rack_equipment_id = equipment_id;
             this.RackDetailTitle = 'Rack ' + (ind + 1);
