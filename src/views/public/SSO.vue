@@ -35,7 +35,7 @@ export default {
       var header = {
         'Content-Type': 'application/json; charset=utf-8',
         'Accept': 'application/json',
-        "Femc-Access-Token" : vm.token
+        "Femc-Access-Token" : event.token
       };
       SSO({type: 2} , header ).then((response) => {
         if (response.data.Msg == "Success") {
