@@ -47,7 +47,7 @@ export default {
   },
   methods: {
  
-    login() {
+    login(event) {
       const vm = this;
       var header = {
         'Content-Type': 'application/json; charset=utf-8',
