@@ -21,7 +21,6 @@ import { SSO } from '@/api/Api.js'
 export default {
   data() {
     return {
-      token : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjYyYWUzNDQ1MWY0ZDAwMDA3NzAwNjI2ZCIsIm5hbWUiOiJXaWxzb24iLCJjb21wYW55IjpudWxsLCJleHBfZGF0ZSI6MTY3MjAzNzQ1OS4wNjgzNjh9.Ha1RZ9BG_7GOizv07VQAaIJLmsBnUdIUR5fK7IQn5tc"
     };
   },
   created() {

@@ -158,21 +158,21 @@ export default {
           yanchor: "middle",
           y: 1.2,
         },
-        title: { text: "即時系統頻率輸出-3MW", side: "top" },
+        title: { text: "即時系統頻率輸出", side: "top" },
         xaxis: {
           automargin: true, // 讓太長的 label 不會被截斷
           type: "category",
         },
         yaxis: {
-          range: [-100, 100],
+          range: [-105, 105],
           autorange: false,
           title: "P",
           side: "left",
         },
         yaxis2: {
-          range: [59.75, 60.25],
+          range: [59.2, 60.8],
           tickmode: "array",
-          tickvals: [59.75, 59.86, 60, 60.14, 60.25],
+          tickvals: [59.2,59.75, 59.86, 60, 60.14, 60.25,60.8],
           title: "HZ",
           // dtick:0.25,
           overlaying: "y",
