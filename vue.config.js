@@ -8,16 +8,8 @@ module.exports = defineConfig({
       allowedHosts: "all",
       port: process.env.VUE_APP_Port,
       proxy: {
-        "^/api/ups": {
-          target: process.env.VUE_APP_TargetURL_UPS,
-          ws: false,
-          changeOrigin: true,
-          pathRewrite: {                         
-            '^/api/ups': '', 
-          }
-        },
         "^/api": {
-          target: process.env.VUE_APP_TargetURL_EMS,
+          target: process.env.VUE_APP_ApiURL_Proxy,
           ws: false,
           changeOrigin: true,
           pathRewrite: {                         

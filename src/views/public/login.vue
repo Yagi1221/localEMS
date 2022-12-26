@@ -47,14 +47,8 @@ export default {
   },
   methods: {
  
-    login(event) {
+    login() {
       const vm = this;
-      var header = {
-        'Content-Type': 'application/json; charset=utf-8',
-        'Accept': 'application/json',
-        "Femc-Access-Token" : event.data
-      };
-      SSO({type: 2} , header ).then((response) => {
       LOGIN({ account: vm.acc, password: vm.pwd , type:1 }).then((response) => {
         if (response.data.Success) {
           this.$store.commit('loginSuccess' ,response.data);
@@ -67,8 +61,7 @@ export default {
         console.log(response)
       });
     },
- 
-  },
+  }
 };
 </script>
 <style type="text/css" scoped>

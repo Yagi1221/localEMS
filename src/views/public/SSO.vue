@@ -31,7 +31,12 @@ export default {
   methods: {
     login(event) {
       const vm = this;
-      SSO({token_id: event.data} ).then((response) => {
+      var header = {
+        'Content-Type': 'application/json; charset=utf-8',
+        'Accept': 'application/json',
+        "Femc-Access-Token" : event.data
+      };
+      SSO({type: 2} , header ).then((response) => {
         if (response.data.success) {
           var userInfo = {};
           userInfo.token = event.data;
