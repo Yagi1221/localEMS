@@ -58,7 +58,6 @@ export default {
         }
       }).catch((response) => {
         vm.$message({ type: 'error', message: '登入失敗:' + response, center: true, });
-        console.log(response)
       });
     },
   }

@@ -420,13 +420,11 @@ export default {
 
     postCabinetESSCI(){
       const vm = this;
-      // Plotly.purge(this.ChartDiv.ECIChart.Id);
-      // Plotly.purge(this.ChartDiv.ICIChart.Id);
       vm.ChartDiv.ECIChart.Loading = true;
-      console.log(JSON.stringify(vm.ApiRequest.postCabinetESSCI));
       postCabinetESSCI(vm.ApiRequest.postCabinetESSCI)
         .then((response) => {
           if (response.data.message.toLowerCase() == "success") {
+            debugger;
             vm.ApiResult.postCabinetESSCI = response.data.data;
             vm.ApiResult.postCabinetESSCI.ECI.forEach(item => {
               item.RackName ="Rack " + (vm.equipment_id.indexOf(item.rack_key) + 1);
@@ -445,8 +443,9 @@ export default {
         });	
     }, 
     resizeChart() {
-      debugger;
-      this.Draw('ECIChartShow');
+      if (this.ApiResult.postCabinetESSCI) {
+        this.Draw('ECIChartShow');
+      }
     },
     Draw(ChartName) {
       const vm = this;

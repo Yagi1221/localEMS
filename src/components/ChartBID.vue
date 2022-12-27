@@ -108,7 +108,6 @@ import moment from 'moment';
                         };
                 }
               })
-              debugger;
               var SPSBPMData = SocketDataItem.bid_info.y1.map((x,ind) => {
                 if (ind <= beforeInd) {
                   return x * 100;
