@@ -2,6 +2,13 @@
 
   <el-table  id="exTable" :data="SocketData" size="small" stripe border class="rounded-3" header-cell-class-name="tableHeaderStyle"  >
         <el-table-column  label="時間" prop="time" ></el-table-column>
+        <el-table-column  label="案場" prop="field_id" >
+          <template #default="scope">
+            {{
+              ApiResult.getFields.find(x=> {return x._id == scope.row.field_id})?.name
+            }}
+          </template>
+        </el-table-column>
         <el-table-column  label="設備" prop="equipment_id" ></el-table-column>
         <el-table-column  label="訊息" prop="message" ></el-table-column>
   </el-table>

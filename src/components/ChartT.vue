@@ -117,11 +117,11 @@ import newwebsocket from '@/lib/NewWebSocket.js';
       },
         data() {
             return {
-              chartId: '',
+              chartId: '', 
               ApiResult: {
                 getCabinetRockInfo : {},
               },
-              SocketData: {},
+              SocketData: {}, 
             };
         },
         mounted(){

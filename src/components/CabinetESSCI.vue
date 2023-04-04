@@ -1,7 +1,7 @@
 <template>
   <div class="row m-0 p-0" v-loading="ChartDiv.ECIChart.Loading">
     <div class="  col  m-0 p-0 me-2 " >
-      <div :id="ChartDiv.ECIChartShow.Id"  style="min-width:800px;width:100%;height:400px">
+      <div :id="ChartDiv.ECIChartShow.Id"  style="width:100%;height:400px">
       </div>
     </div>
   </div>
@@ -417,14 +417,12 @@ export default {
     };
   },
   methods: {
-
     postCabinetESSCI(){
       const vm = this;
       vm.ChartDiv.ECIChart.Loading = true;
       postCabinetESSCI(vm.ApiRequest.postCabinetESSCI)
         .then((response) => {
           if (response.data.message.toLowerCase() == "success") {
-            debugger;
             vm.ApiResult.postCabinetESSCI = response.data.data;
             vm.ApiResult.postCabinetESSCI.ECI.forEach(item => {
               item.RackName ="Rack " + (vm.equipment_id.indexOf(item.rack_key) + 1);
@@ -442,11 +440,6 @@ export default {
           vm.ChartDiv.ECIChart.Loading = false;
         });	
     }, 
-    resizeChart() {
-      if (this.ApiResult.postCabinetESSCI) {
-        this.Draw('ECIChartShow');
-      }
-    },
     Draw(ChartName) {
       const vm = this;
       vm.$nextTick(function() {

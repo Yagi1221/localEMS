@@ -93,7 +93,7 @@ import newwebsocket from '@/lib/NewWebSocket.js';
             return {
               chartId: '',
               socket: null,
-              SocketData: {},
+              SocketData: {}, 
             };
         },
         mounted(){
