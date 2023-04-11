@@ -109,6 +109,7 @@ import newwebsocket from '@/lib/NewWebSocket.js';
             const vm = this;
             
             function MessageCallBack(data) {
+              debugger;
               vm.SocketData = JSON.parse(data).find(x=> {return x.equipment_id == vm.equipment_id});
               vm.initChart();
             }
