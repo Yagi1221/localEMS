@@ -428,6 +428,7 @@ export default {
               item.RackName ="Rack " + (vm.equipment_id.indexOf(item.rack_key) + 1);
             });
             // vm.Draw('ECIChart');
+            debugger;
             vm.Draw('ECIChartShow');
           } else {
             vm.$message({ type:'error' , message:response.data.message });
