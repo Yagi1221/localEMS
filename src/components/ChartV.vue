@@ -37,7 +37,7 @@ import newwebsocket from '@/lib/NewWebSocket.js';
       },
       computed: {
         option:function () {
-          let _min =  3.2;
+          let _min =  2.75;
           let _max = 3.5;
           var model_y = Object.getOwnPropertyNames(this.SocketData.volt_list[0]);
           var model_y_title = [];
