@@ -256,7 +256,7 @@ export default {
           }),
           ChartLayout: {
             title: {
-              text: computed(() => { return 'ICI-' + this.ChartDiv.ECIChart.ClickValue; }),
+              text: computed(() => { return 'ICI-' + this.ChartDiv.ECIChart.ClickData?.text + '-' +  this.ChartDiv.ECIChart.ClickValue; }),
             },
             margin: {
                 t:55,
@@ -276,6 +276,7 @@ export default {
             },
           },
           ClickValue: '',
+          ClickData: null,
         },
         RawChartV:{
           Id :'',
@@ -481,11 +482,14 @@ export default {
     },
     ECIChartShow_Click(data) {
       this.outerVisible = true;
+      this.ChartDiv.ECIChart.ClickData = data.points[0];
       this.ChartDiv.ECIChart.ClickValue = data.points[0].x;
+      debugger;
       this.Draw("ECIChart");
       this.Draw("ICIChart");
     },
     ECIChart_Click(data) {
+      this.ChartDiv.ECIChart.ClickData = data.points[0];
       this.ChartDiv.ECIChart.ClickValue = data.points[0].x;
       this.Draw("ICIChart");
     },
