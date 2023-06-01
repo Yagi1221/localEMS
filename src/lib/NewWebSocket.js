@@ -3,7 +3,6 @@ import store from '@/store/store.js';
 const VUE_APP_WebSucket_URL =  process.env.VUE_APP_WebSucket_URL;
 export default function (onMessageCallBack , onErrorCallBack , topic , doOnce ) {
     try {
-        debugger;
         var socket = new WebSocket(VUE_APP_WebSucket_URL);
         socket.onmessage = function (raw) {
         try {
@@ -28,7 +27,6 @@ export default function (onMessageCallBack , onErrorCallBack , topic , doOnce ) 
 
         socket.onopen = function () {
             if (socket.readyState === WebSocket.OPEN) {
-                debugger;
                 socket.send(JSON.stringify({ "action": "auth", "token": store.getters.user.Token }));
                 socket.send( JSON.stringify({ "action": "subscribe", "topic": topic }));
             }

@@ -643,7 +643,6 @@ export default {
       vm.$refs.Form.validate((valid) => {
         if (valid) {
           vm.$loading();
-          debugger;
           postSystemScheduleSetting(vm.Form)
           .then(response => {
             if (response.data.message == "Success") {
