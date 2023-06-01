@@ -484,7 +484,6 @@ export default {
       this.outerVisible = true;
       this.ChartDiv.ECIChart.ClickData = data.points[0];
       this.ChartDiv.ECIChart.ClickValue = data.points[0].x;
-      debugger;
       this.Draw("ECIChart");
       this.Draw("ICIChart");
     },
