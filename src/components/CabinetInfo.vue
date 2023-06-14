@@ -57,14 +57,14 @@
             </div>
             <!-- 電池資訊 -->
             <div class="   col-2">
-              <div @click="outerVisible  = true" class=""  >
+              <div @click="outerVisible = true" class=""  >
                   <div class="m-0" style="flex-wrap:wrap;">
                     <div v-for="(item, ind) in socketData?.rack_info"  :key="ind" 
                           @click="ShowRackDetail(item.eq_id , ind)" class="rounded-2 col mb-3" style="" >
                       <div class="m-0 text-center">
                         <div>Rack {{ind + 1}}</div>
                       </div>
-                      <div class="p-1 row m-0 p-0">
+                      <div class="p-1 row m-0 p-0" @click="ClickPlace='v'">
                         <div style="width:20px"  >
                           <font-awesome-icon icon="battery-full" />
                         </div>
@@ -74,7 +74,7 @@
                           </el-progress>
                         </div>
                       </div>
-                      <div class="p-1 row m-0 p-0">
+                      <div class="p-1 row m-0 p-0" @click="ClickPlace='t'">
                         <div style="width:20px"  >
                           <font-awesome-icon icon="temperature-low" />
                         </div>
@@ -94,7 +94,7 @@
     </div>
 
       <el-dialog :title="RackDetailTitle" v-model="outerVisible" top="10px"  width="1100px" destroy-on-close="true" >
-        <CabinetDetail :equipment_id="Rack_equipment_id"></CabinetDetail>
+        <CabinetDetail :equipment_id="Rack_equipment_id" :ClickPlace=ClickPlace></CabinetDetail>
       </el-dialog>
 </template>
 
@@ -117,6 +117,7 @@ import ColorList from '@/JSON/ColorRange.json';
           return {
             ColorList,
             equipment_id:'',
+            ClickPlace:'ECI',
             CurrentTitle: computed(() => { return 
 
             }) ,

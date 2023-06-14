@@ -24,6 +24,7 @@ import RackECI from '@/components/RackECI.vue';
     export default {
       props: {
         equipment_id: String,
+        ClickPlace: String,
       }, 
       components: {
         myChartV,myChartT,RackECI
@@ -34,7 +35,7 @@ import RackECI from '@/components/RackECI.vue';
                 v: false,
                 t: false,
               },
-              TabActiveName: 'ECI',
+              TabActiveName: this.ClickPlace,
               ApiRequest: {
                 getCabinetRockInfo : {
                   field_id: this.$store.getters.getField,
