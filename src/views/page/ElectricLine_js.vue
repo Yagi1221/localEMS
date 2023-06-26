@@ -8,7 +8,7 @@
       </template>
     <Background pattern-color="#aaa" gap="8" />
     <MiniMap />
-    <Controls :showInteractive="false"/>
+    <Controls />
 
     <div class="save__controls">
       <button style="background-color: #33a6b8" @click="onSave()">save</button>
