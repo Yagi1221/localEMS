@@ -16,6 +16,29 @@
                        <router-link :to="{name:'ElectricLine'}" ><li class="pe-3 ps-3" >電力單線圖</li></router-link>
                        <router-link :to="{name:'CommunicateLine'}" ><li class="pe-3 ps-3" >通訊架構圖</li></router-link>
                        <router-link :to="{name:'CabinetList'}" ><li class="pe-3 ps-3" >儲能櫃</li></router-link>
+                       <el-dropdown trigger="hover" class="loadMenuDropDown d-flex align-items-center">
+                        <li class="pe-3 ps-3">BMS<font-awesome-icon icon="angle-down" class="ms-2" style="font-size: small;" /></li>
+                        <template #dropdown>
+                            <el-dropdown-menu>
+                                <router-link :to="{ name: 'BMSMonitor' }" class="loadMenuDropDownLi">即時監控</router-link>
+                            </el-dropdown-menu>
+                            <el-dropdown-menu>
+                                <router-link :to="{ name: 'BMSAlert' }" class="loadMenuDropDownLi">即時告警</router-link>
+                            </el-dropdown-menu>
+                            <el-dropdown-menu>
+                                <router-link :to="{ name: 'BMSControlCommands' }" class="loadMenuDropDownLi">控制命令</router-link>
+                            </el-dropdown-menu>
+                            <el-dropdown-menu>
+                                <router-link :to="{ name: 'BMSPlot' }" class="loadMenuDropDownLi">即時曲線</router-link>
+                            </el-dropdown-menu>
+                            <el-dropdown-menu>
+                                <router-link :to="{ name: 'BMSDeviceParameters' }" class="loadMenuDropDownLi">設備參數</router-link>
+                            </el-dropdown-menu>
+                            <el-dropdown-menu>
+                                <router-link :to="{ name: 'BMSHistory' }" class="loadMenuDropDownLi">歷史數據</router-link>
+                            </el-dropdown-menu>
+                        </template>
+                    </el-dropdown>
                      </ul>
                     </div>
                 <div class="col-2 text-end  d-flex align-items-center justify-content-end pe-5">

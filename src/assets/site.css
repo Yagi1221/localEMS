@@ -413,9 +413,27 @@ table.scrollBody ::-webkit-scrollbar-thumb:hover {
     text-align: center;
 }
 
-.localMenu a {
+.localMenu a, .loadMenuDropDown {
     text-decoration: none; color: #fff;
 }
-.localMenu li {
+
+.loadMenuDropDown {
+    text-decoration: none; color: #fff!important;
+    
+}
+.loadMenuDropDownLi {
+    padding: 5px 10px;
+    font-size:16px;
+    text-decoration: none; 
+    font-weight: bolder;
+
+}
+.loadMenuDropDown .el-tooltip__trigger,.loadMenuDropDown .el-tooltip__trigger li  {
+    height: 100%!important;
+    display: flex;
+    align-items: center;
+}
+
+.localMenu li, .loadMenuDropDown li {
     list-style:none; font-size:20px; font-weight:bold;
 }
